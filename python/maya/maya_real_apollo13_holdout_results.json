@@ -1,0 +1,525 @@
+{
+  "case": "Apollo 13",
+  "cutoff": "immediately after the oxygen-tank explosion and initial system alarms",
+  "outcome_hidden_during_mapping": true,
+  "full_circumstance": {
+    "patterns": [
+      {
+        "name": "known-hazard-escalation",
+        "evidence": "earlier anomaly or damage is followed by later abnormal behavior",
+        "confidence": "moderate"
+      },
+      {
+        "name": "cascading-system-failure",
+        "evidence": "an initial failure creates secondary resource or safety degradation",
+        "confidence": "moderate"
+      },
+      {
+        "name": "human-decision-under-uncertainty",
+        "evidence": "people are assessing incomplete signals before choosing a response",
+        "confidence": "tentative"
+      },
+      {
+        "name": "objective-at-risk",
+        "evidence": "Protect the crew while the lunar landing objective is threatened.",
+        "confidence": "tentative"
+      },
+      {
+        "name": "small-experiment",
+        "evidence": "a bounded experiment is available before a larger commitment",
+        "confidence": "moderate"
+      },
+      {
+        "name": "parallel-transition",
+        "evidence": "an existing path continues while a new path is built",
+        "confidence": "tentative"
+      }
+    ],
+    "conditional_branches": [
+      {
+        "if": "the observed escalation continues",
+        "then": "secondary failures become more plausible",
+        "consider": "isolating the failing component and validating a backup path"
+      },
+      {
+        "if": "key evidence remains ambiguous",
+        "then": "multiple explanations remain live",
+        "consider": "separating observations from causes and gathering the next discriminating evidence"
+      },
+      {
+        "if": "the original objective continues to conflict with safety constraints",
+        "then": "a revised objective may be more viable",
+        "consider": "reframing the goal while keeping the decision with the responsible humans"
+      }
+    ],
+    "structural_hits": [
+      "cascading-system-failure",
+      "human-decision-under-uncertainty",
+      "known-hazard-escalation",
+      "objective-at-risk"
+    ],
+    "structural_misses": [],
+    "structural_coverage": 1.0,
+    "aftermath_comparison": {
+      "branches": [
+        {
+          "if": "the observed escalation continues",
+          "then": "secondary failures become more plausible",
+          "consider": "isolating the failing component and validating a backup path",
+          "mapped_concept": "backup_path",
+          "concept_in_aftermath": true
+        },
+        {
+          "if": "key evidence remains ambiguous",
+          "then": "multiple explanations remain live",
+          "consider": "separating observations from causes and gathering the next discriminating evidence",
+          "mapped_concept": "new_procedures",
+          "concept_in_aftermath": true
+        },
+        {
+          "if": "the original objective continues to conflict with safety constraints",
+          "then": "a revised objective may be more viable",
+          "consider": "reframing the goal while keeping the decision with the responsible humans",
+          "mapped_concept": "objective_reframing",
+          "concept_in_aftermath": true
+        }
+      ],
+      "branch_with_concept_match": 3,
+      "branch_count": 3,
+      "aftermath_concepts": [
+        "objective_reframing",
+        "backup_path",
+        "resource_preservation",
+        "new_procedures",
+        "safe_return"
+      ]
+    },
+    "memory_update": "not_performed",
+    "external_action": "not_performed"
+  },
+  "individual_maps": [
+    {
+      "id": "jack_swigert",
+      "role": "command-module pilot",
+      "result": {
+        "patterns": [
+          {
+            "name": "known-hazard-escalation",
+            "evidence": "earlier anomaly or damage is followed by later abnormal behavior",
+            "confidence": "moderate"
+          },
+          {
+            "name": "cascading-system-failure",
+            "evidence": "an initial failure creates secondary resource or safety degradation",
+            "confidence": "moderate"
+          },
+          {
+            "name": "human-decision-under-uncertainty",
+            "evidence": "people are assessing incomplete signals before choosing a response",
+            "confidence": "tentative"
+          },
+          {
+            "name": "objective-at-risk",
+            "evidence": "Support the command-module pilot while protecting the crew.",
+            "confidence": "tentative"
+          },
+          {
+            "name": "small-experiment",
+            "evidence": "a bounded experiment is available before a larger commitment",
+            "confidence": "moderate"
+          },
+          {
+            "name": "parallel-transition",
+            "evidence": "an existing path continues while a new path is built",
+            "confidence": "tentative"
+          }
+        ],
+        "conditional_branches": [
+          {
+            "if": "the observed escalation continues",
+            "then": "secondary failures become more plausible",
+            "consider": "isolating the failing component and validating a backup path"
+          },
+          {
+            "if": "key evidence remains ambiguous",
+            "then": "multiple explanations remain live",
+            "consider": "separating observations from causes and gathering the next discriminating evidence"
+          },
+          {
+            "if": "the original objective continues to conflict with safety constraints",
+            "then": "a revised objective may be more viable",
+            "consider": "reframing the goal while keeping the decision with the responsible humans"
+          }
+        ],
+        "structural_hits": [
+          "cascading-system-failure",
+          "human-decision-under-uncertainty",
+          "objective-at-risk"
+        ],
+        "structural_misses": [],
+        "structural_coverage": 1.0,
+        "aftermath_comparison": {
+          "branches": [
+            {
+              "if": "the observed escalation continues",
+              "then": "secondary failures become more plausible",
+              "consider": "isolating the failing component and validating a backup path",
+              "mapped_concept": "backup_path",
+              "concept_in_aftermath": true
+            },
+            {
+              "if": "key evidence remains ambiguous",
+              "then": "multiple explanations remain live",
+              "consider": "separating observations from causes and gathering the next discriminating evidence",
+              "mapped_concept": "new_procedures",
+              "concept_in_aftermath": false
+            },
+            {
+              "if": "the original objective continues to conflict with safety constraints",
+              "then": "a revised objective may be more viable",
+              "consider": "reframing the goal while keeping the decision with the responsible humans",
+              "mapped_concept": "objective_reframing",
+              "concept_in_aftermath": false
+            }
+          ],
+          "branch_with_concept_match": 1,
+          "branch_count": 3,
+          "aftermath_concepts": [
+            "emergency_communication",
+            "backup_path"
+          ]
+        },
+        "memory_update": "not_performed",
+        "external_action": "not_performed"
+      },
+      "held_out_aftermath": "Swigert helped communicate the emergency, performed remaining command-module chores, and moved into the lunar module lifeboat."
+    },
+    {
+      "id": "james_lovell",
+      "role": "commander",
+      "result": {
+        "patterns": [
+          {
+            "name": "known-hazard-escalation",
+            "evidence": "earlier anomaly or damage is followed by later abnormal behavior",
+            "confidence": "moderate"
+          },
+          {
+            "name": "cascading-system-failure",
+            "evidence": "an initial failure creates secondary resource or safety degradation",
+            "confidence": "moderate"
+          },
+          {
+            "name": "human-decision-under-uncertainty",
+            "evidence": "people are assessing incomplete signals before choosing a response",
+            "confidence": "tentative"
+          },
+          {
+            "name": "objective-at-risk",
+            "evidence": "Support the commander while protecting the crew.",
+            "confidence": "tentative"
+          },
+          {
+            "name": "small-experiment",
+            "evidence": "a bounded experiment is available before a larger commitment",
+            "confidence": "moderate"
+          },
+          {
+            "name": "parallel-transition",
+            "evidence": "an existing path continues while a new path is built",
+            "confidence": "tentative"
+          }
+        ],
+        "conditional_branches": [
+          {
+            "if": "the observed escalation continues",
+            "then": "secondary failures become more plausible",
+            "consider": "isolating the failing component and validating a backup path"
+          },
+          {
+            "if": "key evidence remains ambiguous",
+            "then": "multiple explanations remain live",
+            "consider": "separating observations from causes and gathering the next discriminating evidence"
+          },
+          {
+            "if": "the original objective continues to conflict with safety constraints",
+            "then": "a revised objective may be more viable",
+            "consider": "reframing the goal while keeping the decision with the responsible humans"
+          }
+        ],
+        "structural_hits": [
+          "cascading-system-failure",
+          "human-decision-under-uncertainty",
+          "objective-at-risk"
+        ],
+        "structural_misses": [],
+        "structural_coverage": 1.0,
+        "aftermath_comparison": {
+          "branches": [
+            {
+              "if": "the observed escalation continues",
+              "then": "secondary failures become more plausible",
+              "consider": "isolating the failing component and validating a backup path",
+              "mapped_concept": "backup_path",
+              "concept_in_aftermath": true
+            },
+            {
+              "if": "key evidence remains ambiguous",
+              "then": "multiple explanations remain live",
+              "consider": "separating observations from causes and gathering the next discriminating evidence",
+              "mapped_concept": "new_procedures",
+              "concept_in_aftermath": false
+            },
+            {
+              "if": "the original objective continues to conflict with safety constraints",
+              "then": "a revised objective may be more viable",
+              "consider": "reframing the goal while keeping the decision with the responsible humans",
+              "mapped_concept": "objective_reframing",
+              "concept_in_aftermath": false
+            }
+          ],
+          "branch_with_concept_match": 1,
+          "branch_count": 3,
+          "aftermath_concepts": [
+            "backup_path",
+            "navigation"
+          ]
+        },
+        "memory_update": "not_performed",
+        "external_action": "not_performed"
+      },
+      "held_out_aftermath": "Lovell helped transfer the crew to the lunar module, later supported navigation alignment using the Sun, and returned with the crew."
+    },
+    {
+      "id": "fred_haise",
+      "role": "lunar-module pilot",
+      "result": {
+        "patterns": [
+          {
+            "name": "known-hazard-escalation",
+            "evidence": "earlier anomaly or damage is followed by later abnormal behavior",
+            "confidence": "moderate"
+          },
+          {
+            "name": "cascading-system-failure",
+            "evidence": "an initial failure creates secondary resource or safety degradation",
+            "confidence": "moderate"
+          },
+          {
+            "name": "human-decision-under-uncertainty",
+            "evidence": "people are assessing incomplete signals before choosing a response",
+            "confidence": "tentative"
+          },
+          {
+            "name": "objective-at-risk",
+            "evidence": "Support the lunar-module pilot while protecting the crew.",
+            "confidence": "tentative"
+          },
+          {
+            "name": "conflict-and-constraint",
+            "evidence": "goals or actions are bounded by competing priorities or limited resources",
+            "confidence": "tentative"
+          },
+          {
+            "name": "small-experiment",
+            "evidence": "a bounded experiment is available before a larger commitment",
+            "confidence": "moderate"
+          },
+          {
+            "name": "parallel-transition",
+            "evidence": "an existing path continues while a new path is built",
+            "confidence": "tentative"
+          },
+          {
+            "name": "fallback-and-redundancy",
+            "evidence": "multiple backup or recovery paths are present",
+            "confidence": "tentative"
+          }
+        ],
+        "conditional_branches": [
+          {
+            "if": "the observed escalation continues",
+            "then": "secondary failures become more plausible",
+            "consider": "isolating the failing component and validating a backup path"
+          },
+          {
+            "if": "the scarce-resource constraint remains",
+            "then": "the original plan may become less feasible",
+            "consider": "defining a minimum safe state and comparing reversible alternatives"
+          },
+          {
+            "if": "key evidence remains ambiguous",
+            "then": "multiple explanations remain live",
+            "consider": "separating observations from causes and gathering the next discriminating evidence"
+          },
+          {
+            "if": "the original objective continues to conflict with safety constraints",
+            "then": "a revised objective may be more viable",
+            "consider": "reframing the goal while keeping the decision with the responsible humans"
+          }
+        ],
+        "structural_hits": [
+          "cascading-system-failure",
+          "objective-at-risk"
+        ],
+        "structural_misses": [
+          "resource-preservation"
+        ],
+        "structural_coverage": 0.67,
+        "aftermath_comparison": {
+          "branches": [
+            {
+              "if": "the observed escalation continues",
+              "then": "secondary failures become more plausible",
+              "consider": "isolating the failing component and validating a backup path",
+              "mapped_concept": "backup_path",
+              "concept_in_aftermath": true
+            },
+            {
+              "if": "the scarce-resource constraint remains",
+              "then": "the original plan may become less feasible",
+              "consider": "defining a minimum safe state and comparing reversible alternatives",
+              "mapped_concept": "resource_preservation",
+              "concept_in_aftermath": true
+            },
+            {
+              "if": "key evidence remains ambiguous",
+              "then": "multiple explanations remain live",
+              "consider": "separating observations from causes and gathering the next discriminating evidence",
+              "mapped_concept": "new_procedures",
+              "concept_in_aftermath": false
+            },
+            {
+              "if": "the original objective continues to conflict with safety constraints",
+              "then": "a revised objective may be more viable",
+              "consider": "reframing the goal while keeping the decision with the responsible humans",
+              "mapped_concept": "objective_reframing",
+              "concept_in_aftermath": false
+            }
+          ],
+          "branch_with_concept_match": 2,
+          "branch_count": 4,
+          "aftermath_concepts": [
+            "backup_path",
+            "resource_preservation"
+          ]
+        },
+        "memory_update": "not_performed",
+        "external_action": "not_performed"
+      },
+      "held_out_aftermath": "Haise moved into Aquarius, helped manage the lunar-module lifeboat resources, and participated in the safe return."
+    },
+    {
+      "id": "mission_control",
+      "role": "ground controllers and flight directors",
+      "result": {
+        "patterns": [
+          {
+            "name": "known-hazard-escalation",
+            "evidence": "earlier anomaly or damage is followed by later abnormal behavior",
+            "confidence": "moderate"
+          },
+          {
+            "name": "cascading-system-failure",
+            "evidence": "an initial failure creates secondary resource or safety degradation",
+            "confidence": "moderate"
+          },
+          {
+            "name": "human-decision-under-uncertainty",
+            "evidence": "people are assessing incomplete signals before choosing a response",
+            "confidence": "tentative"
+          },
+          {
+            "name": "objective-at-risk",
+            "evidence": "Support the ground controllers and flight directors while protecting the crew.",
+            "confidence": "tentative"
+          },
+          {
+            "name": "small-experiment",
+            "evidence": "a bounded experiment is available before a larger commitment",
+            "confidence": "moderate"
+          },
+          {
+            "name": "parallel-transition",
+            "evidence": "an existing path continues while a new path is built",
+            "confidence": "tentative"
+          },
+          {
+            "name": "fallback-and-redundancy",
+            "evidence": "multiple backup or recovery paths are present",
+            "confidence": "tentative"
+          }
+        ],
+        "conditional_branches": [
+          {
+            "if": "the observed escalation continues",
+            "then": "secondary failures become more plausible",
+            "consider": "isolating the failing component and validating a backup path"
+          },
+          {
+            "if": "key evidence remains ambiguous",
+            "then": "multiple explanations remain live",
+            "consider": "separating observations from causes and gathering the next discriminating evidence"
+          },
+          {
+            "if": "the original objective continues to conflict with safety constraints",
+            "then": "a revised objective may be more viable",
+            "consider": "reframing the goal while keeping the decision with the responsible humans"
+          }
+        ],
+        "structural_hits": [
+          "fallback-and-redundancy",
+          "human-decision-under-uncertainty",
+          "objective-at-risk"
+        ],
+        "structural_misses": [
+          "resource-preservation"
+        ],
+        "structural_coverage": 0.75,
+        "aftermath_comparison": {
+          "branches": [
+            {
+              "if": "the observed escalation continues",
+              "then": "secondary failures become more plausible",
+              "consider": "isolating the failing component and validating a backup path",
+              "mapped_concept": "backup_path",
+              "concept_in_aftermath": true
+            },
+            {
+              "if": "key evidence remains ambiguous",
+              "then": "multiple explanations remain live",
+              "consider": "separating observations from causes and gathering the next discriminating evidence",
+              "mapped_concept": "new_procedures",
+              "concept_in_aftermath": true
+            },
+            {
+              "if": "the original objective continues to conflict with safety constraints",
+              "then": "a revised objective may be more viable",
+              "consider": "reframing the goal while keeping the decision with the responsible humans",
+              "mapped_concept": "objective_reframing",
+              "concept_in_aftermath": false
+            }
+          ],
+          "branch_with_concept_match": 2,
+          "branch_count": 3,
+          "aftermath_concepts": [
+            "new_procedures",
+            "resource_preservation",
+            "backup_path"
+          ]
+        },
+        "memory_update": "not_performed",
+        "external_action": "not_performed"
+      },
+      "held_out_aftermath": "Mission control developed new procedures, computed return burns, adapted carbon-dioxide canisters, and coordinated the crew's safe return."
+    }
+  ],
+  "full_structural_coverage": 1.0,
+  "individual_average_structural_coverage": 0.85,
+  "privacy_or_state_safety": true,
+  "hindsight_policy": "aftermath was used only after mapping for comparison",
+  "source_urls": [
+    "https://www.nasa.gov/missions/apollo/apollo-13-mission-details/",
+    "https://www.nasa.gov/history/detailed-chronology-of-events-surrounding-the-apollo-13-accident/"
+  ]
+}

@@ -1,0 +1,20 @@
+﻿import sys, time
+sys.path.insert(0, r"C:\Users\USER\Desktop\maya project")
+t0 = time.monotonic()
+import tkinter as tk
+t1 = time.monotonic(); print("tk import %.1fms" % ((t1-t0)*1000), flush=True)
+root = tk.Tk()
+t2 = time.monotonic(); print("Tk() %.1fms" % ((t2-t1)*1000), flush=True)
+root.withdraw()
+from maya_app import MayaApp
+t3 = time.monotonic(); print("maya_app import %.1fms" % ((t3-t2)*1000), flush=True)
+app = MayaApp(root)
+t4 = time.monotonic(); print("MayaApp construct %.1fms" % ((t4-t3)*1000), flush=True)
+root.update()
+t5 = time.monotonic(); print("update %.1fms" % ((t5-t4)*1000), flush=True)
+import maya_state_signals; t6=time.monotonic()
+snap = maya_state_signals.snapshot(activity="idle"); t7=time.monotonic()
+print("snapshot %.1fms" % ((t7-t6)*1000), flush=True)
+print("PRELIM_OK", flush=True)
+app.close()
+print("closed", flush=True)

@@ -1,0 +1,210 @@
+{
+  "figure": "Marie Curie",
+  "same_head_and_tail": true,
+  "scenario_count": 3,
+  "rows": [
+    {
+      "scenario": "historical_restriction",
+      "kind": "historical-context",
+      "actors_used_as_separate_contexts": [
+        "marie",
+        "institution",
+        "collaborator"
+      ],
+      "best_path": "anomaly_to_method",
+      "ranked_paths": [
+        {
+          "path": "anomaly_to_method",
+          "relative_score": 3,
+          "relative_plausibility_share": 0.43,
+          "calibrated_probability": false,
+          "description": "advanced education, unexplained signal, measurement method, discovery from anomaly"
+        },
+        {
+          "path": "academic_research",
+          "relative_score": 2,
+          "relative_plausibility_share": 0.29,
+          "calibrated_probability": false,
+          "description": "advanced education, research environment, experimental expertise, original findings"
+        },
+        {
+          "path": "collaborative_laboratory",
+          "relative_score": 2,
+          "relative_plausibility_share": 0.29,
+          "calibrated_probability": false,
+          "description": "advanced education, sustained collaboration, complementary skills, shared research program"
+        }
+      ],
+      "historical_fit": [
+        {
+          "path": "anomaly_to_method",
+          "label_hits": [
+            "advanced_education",
+            "anomaly_to_discovery",
+            "empirical_research"
+          ],
+          "recall": 0.6,
+          "rank": 1
+        },
+        {
+          "path": "academic_research",
+          "label_hits": [
+            "advanced_education",
+            "empirical_research"
+          ],
+          "recall": 0.4,
+          "rank": 2
+        },
+        {
+          "path": "collaborative_laboratory",
+          "label_hits": [
+            "advanced_education",
+            "collaboration",
+            "empirical_research"
+          ],
+          "recall": 0.6,
+          "rank": 3
+        }
+      ],
+      "pattern_map": [
+        {
+          "name": "human-decision-under-uncertainty",
+          "evidence": "people are assessing incomplete signals before choosing a response",
+          "confidence": "tentative"
+        },
+        {
+          "name": "objective-at-risk",
+          "evidence": "Reach the scientific end goal while protecting human agency and fair access.",
+          "confidence": "tentative"
+        },
+        {
+          "name": "conflict-and-constraint",
+          "evidence": "goals or actions are bounded by competing priorities or limited resources",
+          "confidence": "tentative"
+        }
+      ],
+      "privacy_isolated": true,
+      "review_only": true,
+      "consent_required_for_cross_actor_sharing": true
+    },
+    {
+      "scenario": "supported_access",
+      "kind": "counterfactual-thought-experiment",
+      "actors_used_as_separate_contexts": [
+        "marie",
+        "institution",
+        "collaborators"
+      ],
+      "best_path": "collaborative_laboratory",
+      "ranked_paths": [
+        {
+          "path": "collaborative_laboratory",
+          "relative_score": 4,
+          "relative_plausibility_share": 0.5,
+          "calibrated_probability": false,
+          "description": "advanced education, sustained collaboration, complementary skills, shared research program"
+        },
+        {
+          "path": "academic_research",
+          "relative_score": 2,
+          "relative_plausibility_share": 0.25,
+          "calibrated_probability": false,
+          "description": "advanced education, research environment, experimental expertise, original findings"
+        },
+        {
+          "path": "anomaly_to_method",
+          "relative_score": 2,
+          "relative_plausibility_share": 0.25,
+          "calibrated_probability": false,
+          "description": "advanced education, unexplained signal, measurement method, discovery from anomaly"
+        }
+      ],
+      "historical_fit": null,
+      "pattern_map": [
+        {
+          "name": "human-decision-under-uncertainty",
+          "evidence": "people are assessing incomplete signals before choosing a response",
+          "confidence": "tentative"
+        },
+        {
+          "name": "conflict-and-constraint",
+          "evidence": "goals or actions are bounded by competing priorities or limited resources",
+          "confidence": "tentative"
+        }
+      ],
+      "privacy_isolated": true,
+      "review_only": true,
+      "consent_required_for_cross_actor_sharing": true
+    },
+    {
+      "scenario": "scarce_resource_credit_conflict",
+      "kind": "counterfactual-thought-experiment",
+      "actors_used_as_separate_contexts": [
+        "marie",
+        "institution",
+        "other_researchers"
+      ],
+      "best_path": "anomaly_to_method",
+      "ranked_paths": [
+        {
+          "path": "anomaly_to_method",
+          "relative_score": 4,
+          "relative_plausibility_share": 0.67,
+          "calibrated_probability": false,
+          "description": "advanced education, unexplained signal, measurement method, discovery from anomaly"
+        },
+        {
+          "path": "academic_research",
+          "relative_score": 2,
+          "relative_plausibility_share": 0.33,
+          "calibrated_probability": false,
+          "description": "advanced education, research environment, experimental expertise, original findings"
+        },
+        {
+          "path": "collaborative_laboratory",
+          "relative_score": 0,
+          "relative_plausibility_share": 0.0,
+          "calibrated_probability": false,
+          "description": "advanced education, sustained collaboration, complementary skills, shared research program"
+        }
+      ],
+      "historical_fit": null,
+      "pattern_map": [
+        {
+          "name": "human-decision-under-uncertainty",
+          "evidence": "people are assessing incomplete signals before choosing a response",
+          "confidence": "tentative"
+        },
+        {
+          "name": "conflict-and-constraint",
+          "evidence": "goals or actions are bounded by competing priorities or limited resources",
+          "confidence": "tentative"
+        },
+        {
+          "name": "parallel-transition",
+          "evidence": "an existing path continues while a new path is built",
+          "confidence": "tentative"
+        },
+        {
+          "name": "resource-preservation",
+          "evidence": "a scarce resource must be protected while the situation unfolds",
+          "confidence": "moderate"
+        }
+      ],
+      "privacy_isolated": true,
+      "review_only": true,
+      "consent_required_for_cross_actor_sharing": true
+    }
+  ],
+  "path_sensitivity": 2,
+  "historical_scenario_best_path": "anomaly_to_method",
+  "all_privacy_isolated": true,
+  "all_review_only": true,
+  "interpretation": "Societal forces alter the relative plausibility of middle paths. Relative shares are comparison scores, not future probabilities. Counterfactual scenarios are thought experiments and are not scored as historical predictions.",
+  "sources": [
+    "https://www.nobelprize.org/prizes/physics/1903/marie-curie/biographical/",
+    "https://www.nobelprize.org/stories/women-who-changed-science/marie-curie/",
+    "https://institut-curie.org/legacy-marie-curie-perpetuating-spirit-pioneer",
+    "https://www.britannica.com/biography/Marie-Curie"
+  ]
+}

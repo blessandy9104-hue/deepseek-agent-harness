@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "request": "Add recurring-task support",
+    "status": "approved"
+  },
+  {
+    "id": 2,
+    "request": "Add controlled self-improvement workflow",
+    "status": "proposed"
+  }
+]

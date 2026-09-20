@@ -1,0 +1,57 @@
+{
+  "status": "approved_bounded_local_development",
+  "approved_by": "Andy",
+  "approved_at": "2026-08-23T00:00:00+04:00",
+  "scope": [
+    {
+      "id": "conflict_calibration",
+      "description": "Deterministic conflict detection and confidence calibration using temporary local test fixtures.",
+      "allowed": true,
+      "limits": ["temporary local fixtures", "no automatic truth resolution", "no external action"]
+    },
+    {
+      "id": "historical_holdout",
+      "description": "Public or synthetic historical holdout testing with hidden outcomes and no private third-party data.",
+      "allowed": true,
+      "limits": ["outcomes remain hidden during mapping", "source provenance required", "no private third-party data"]
+    },
+    {
+      "id": "review_ui",
+      "description": "Local pending-suggestion review UI, audit views, correction paths, and rollback documentation.",
+      "allowed": true,
+      "limits": ["review metadata only", "explicit confirmation required", "activation remains separate"]
+    },
+    {
+      "id": "pc_safety_tests",
+      "description": "Short resource-limited tests for monitoring, restart, emergency stop, and minimum-useful acceptance.",
+      "allowed": true,
+      "limits": ["bounded duration", "no stress testing", "stop on unsafe resource state"]
+    },
+    {
+      "id": "local_reports",
+      "description": "Local reports, opportunity bookmarks, prediction-limit summaries, and provenance displays.",
+      "allowed": true,
+      "limits": ["local output only", "no unsupported certainty", "no automatic decisions"]
+    },
+    {
+      "id": "voice_preparation",
+      "description": "Preparation of voice-startup routing only.",
+      "allowed": true,
+      "limits": ["microphone listening disabled", "privileged execution disabled", "no startup hook activation"]
+    }
+  ],
+  "not_authorized": [
+    "continuous microphone or screen listening",
+    "unrestricted network or browsing",
+    "autonomous desktop control",
+    "automatic memory promotion",
+    "changes to mission, security, system-preservation, or emergency-stop walls",
+    "driver or service installation",
+    "cross-user data sharing"
+  ],
+  "automatic_activation": false,
+  "memory_update": "not_performed",
+  "external_action": "not_performed",
+  "rollback_required": true,
+  "audit_required": true
+}

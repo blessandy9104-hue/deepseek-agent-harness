@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-08-16T09:02:19.548353+00:00",
+  "status": "review_only",
+  "title": "Maya Control Center",
+  "sections": {
+    "weekly_focus": {
+      "open_task_count": 15,
+      "focus_tasks": [
+        {
+          "rank": 1,
+          "text": "weekly planning",
+          "next_due": "2026-08-21",
+          "repeat": "weekly",
+          "created": null
+        },
+        {
+          "rank": 2,
+          "text": "weekly planning",
+          "next_due": "2026-08-21",
+          "repeat": "weekly",
+          "created": null
+        },
+        {
+          "rank": 3,
+          "text": "weekly project review",
+          "next_due": "2026-08-21",
+          "repeat": "weekly",
+          "created": null
+        },
+        {
+          "rank": 4,
+          "text": "weekly project review",
+          "next_due": "2026-08-21",
+          "repeat": "weekly",
+          "created": null
+        },
+        {
+          "rank": 5,
+          "text": "plan the weekly review tomorrow",
+          "next_due": null,
+          "repeat": null,
+          "created": "2026-08-14 14:30"
+        },
+        {
+          "rank": 6,
+          "text": "prepare the report tomorrow",
+          "next_due": null,
+          "repeat": null,
+          "created": "2026-08-14 16:20"
+        },
+        {
+          "rank": 7,
+          "text": "Review and enable safe read-only network access later",
+          "next_due": null,
+          "repeat": null,
+          "created": "2026-08-14 16:04"
+        }
+      ]
+    },
+    "tasks": {
+      "stats": {
+        "returncode": 0,
+        "output": "Total: 17  Open: 15  Done: 2"
+      },
+      "list": {
+        "returncode": 0,
+        "output": "Your tasks:\n  [✔] 1. test the assistant\n  [✔] 2. buy milk\n  [ ] 3. buy eggs\n  [ ] 4. buy bread\n  [ ] 5. submit the report tomorrow\n  [ ] 6. buy printer ink Friday\n  [ ] 7. call Alex tomorrow\n  [ ] 8. plan the weekly review tomorrow\n  [ ] 9. review the budget Friday\n  [ ] 10. send the project update Friday\n  [ ] 11. weekly project review\n  [ ] 12. weekly project review\n  [ ] 13. weekly planning\n  [ ] 14. Review and enable safe read-only network access later\n  [ ] 15. prepare the report tomorrow\n  [ ] 16. weekly planning\n  [ ] 17. walk the dog"
+      }
+    },
+    "approvals": {
+      "pending_review_entries": 21,
+      "tracked_files": 1,
+      "audit_events_loaded": 23
+    },
+    "research": {
+      "learning_state": "awaiting_approved_public_research_records",
+      "freshness_state": "awaiting_approved_public_research_records",
+      "research_like_records": 8,
+      "network_mode": "read_only",
+      "allowed_hosts": [
+        "docs.python.org",
+        "api.github.com",
+        "plato.stanford.edu",
+        "iep.utm.edu",
+        "en.wikipedia.org"
+      ]
+    },
+    "evidence": {
+      "record_count": 24,
+      "cluster_count": 23
+    },
+    "income_research": {
+      "opportunity_count": 5,
+      "status": "review_only"
+    }
+  },
+  "controls": {
+    "read_only": true,
+    "task_changes_executed": false,
+    "approval_actions_executed": false,
+    "memory_modified": false,
+    "network_access": false,
+    "writes_only_to_stdout": true,
+    "explicit_Andy_approval_required_for_actions": true
+  }
+}

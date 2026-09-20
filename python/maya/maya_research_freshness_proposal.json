@@ -1,0 +1,12 @@
+{
+  "key": "research_freshness_summary",
+  "rank": "new_candidate",
+  "area": "learning_and_research",
+  "proposal": "Show the freshness and availability state of Maya\u2019s local public-research evidence without browsing or promoting memory.",
+  "expected_andy_benefit": "Clear visibility into whether Maya has current approved research available.",
+  "effort": "low",
+  "risk": "low",
+  "reversibility": "high",
+  "requires_approval": true,
+  "automatic_activation": false
+}

@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-16T08:17:50.924582+00:00",
+  "status": "review_only",
+  "owner": "Andy",
+  "source_priority_count": 4,
+  "approved_pattern_count": 4,
+  "queue": [
+    {
+      "rank": 1,
+      "key": "planning_support_refinement",
+      "area": "planning_and_review_support",
+      "proposal": "Improve Maya’s local planning and weekly-review summaries using existing task evidence.",
+      "expected_andy_benefit": "less repetition and clearer focus",
+      "evidence": "approved planning pattern and task evidence",
+      "effort": "low",
+      "risk": "low",
+      "reversibility": "high",
+      "requires_approval": true,
+      "automatic_activation": false
+    },
+    {
+      "rank": 2,
+      "key": "evidence_cluster_review",
+      "area": "staged_self_evolution",
+      "proposal": "Improve Maya’s ability to group repeated pending evidence before proposing a pattern.",
+      "expected_andy_benefit": "more accurate personalization with fewer premature inferences",
+      "evidence": "24 pending records and approved staged-verification pattern",
+      "effort": "low",
+      "risk": "low",
+      "reversibility": "high",
+      "requires_approval": true,
+      "automatic_activation": false
+    },
+    {
+      "rank": 3,
+      "key": "income_report_comparison",
+      "area": "income_opportunity_mapping",
+      "proposal": "Improve comparison of income opportunities by time, cost, skills, downside, uncertainty, and values tradeoffs.",
+      "expected_andy_benefit": "better opportunity decisions without automatic financial action",
+      "evidence": "approved money-making interest and active report generator",
+      "effort": "medium",
+      "risk": "medium",
+      "reversibility": "high",
+      "requires_approval": true,
+      "automatic_activation": false
+    },
+    {
+      "rank": 4,
+      "key": "supervised_research_learning",
+      "area": "learning_and_research",
+      "proposal": "Improve public-research summaries while keeping them separate from trusted memory until review.",
+      "expected_andy_benefit": "more current knowledge with controlled learning",
+      "evidence": "7 public-research records and allowlisted read-only network policy",
+      "effort": "medium",
+      "risk": "medium",
+      "reversibility": "high",
+      "requires_approval": true,
+      "automatic_activation": false
+    }
+  ],
+  "controls": {
+    "automatic_activation": false,
+    "automatic_memory_update": false,
+    "sandbox_test_required": true,
+    "rollback_required": true,
+    "audit_log_required": true,
+    "andy_approval_required": true,
+    "background_research": "approval_required",
+    "financial_action": "explicit_confirmation_required"
+  }
+}

@@ -1,0 +1,905 @@
+{
+  "generated_at": "2026-08-16T08:55:23.329937+00:00",
+  "status": "review_only",
+  "title": "Maya Approval Dashboard",
+  "summary": {
+    "candidate_or_proposal_files": 21,
+    "other_tracked_files": 1,
+    "audit_events_loaded": 23
+  },
+  "pending_review": [
+    {
+      "file": "maya_evidence_cluster.json",
+      "status": "review_only",
+      "proposal_key": null,
+      "requires_approval": null,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "source_modified": false,
+        "trusted_memory_modified": false,
+        "patterns_created": false,
+        "automatic_approval": false,
+        "network_access": false,
+        "approval_required_for_pattern_activation": true
+      }
+    },
+    {
+      "file": "maya_evidence_cluster_candidate.json",
+      "status": "review_only",
+      "proposal_key": null,
+      "requires_approval": null,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "source_modified": false,
+        "trusted_memory_modified": false,
+        "patterns_created": false,
+        "automatic_approval": false,
+        "network_access": false,
+        "approval_required_for_pattern_activation": true
+      }
+    },
+    {
+      "file": "maya_evidence_cluster_candidate.preview.json",
+      "status": "review_only",
+      "proposal_key": null,
+      "requires_approval": null,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "source_modified": false,
+        "trusted_memory_modified": false,
+        "patterns_created": false,
+        "automatic_approval": false,
+        "network_access": false,
+        "approval_required_for_pattern_activation": true
+      }
+    },
+    {
+      "file": "maya_improvement_queue_candidate.json",
+      "status": "review_only",
+      "proposal_key": null,
+      "requires_approval": null,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "automatic_activation": false,
+        "automatic_memory_update": false,
+        "sandbox_test_required": true,
+        "rollback_required": true,
+        "audit_log_required": true,
+        "andy_approval_required": true,
+        "background_research": "approval_required",
+        "financial_action": "explicit_confirmation_required"
+      }
+    },
+    {
+      "file": "maya_income_report_comparison.json",
+      "status": "review_only",
+      "proposal_key": null,
+      "requires_approval": true,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "source_modified": false,
+        "automatic_financial_action": false,
+        "income_guarantee": false,
+        "invented_estimates": false,
+        "network_access": false,
+        "approval_required_for_follow_up": true
+      }
+    },
+    {
+      "file": "maya_income_report_comparison.preview.json",
+      "status": "review_only",
+      "proposal_key": null,
+      "requires_approval": true,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "source_modified": false,
+        "automatic_financial_action": false,
+        "income_guarantee": false,
+        "invented_estimates": false,
+        "network_access": false,
+        "approval_required_for_follow_up": true
+      }
+    },
+    {
+      "file": "maya_income_report_comparison_candidate.json",
+      "status": "review_only",
+      "proposal_key": null,
+      "requires_approval": true,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "source_modified": false,
+        "automatic_financial_action": false,
+        "income_guarantee": false,
+        "invented_estimates": false,
+        "network_access": false,
+        "approval_required_for_follow_up": true
+      }
+    },
+    {
+      "file": "maya_opportunity_dashboard_candidate.json",
+      "status": "review_only",
+      "proposal_key": null,
+      "requires_approval": null,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "review_only": true,
+        "automatic_activation": false,
+        "automatic_memory_update": false,
+        "background_research": "approval_required",
+        "financial_action": "explicit_confirmation_required",
+        "private_data_export": false
+      }
+    },
+    {
+      "file": "maya_opportunity_report_candidate.json",
+      "status": "candidate_only",
+      "proposal_key": null,
+      "requires_approval": null,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "no_income_guarantees": true,
+        "no_private_data_in_web_queries": true,
+        "no_purchases_or_trades": true,
+        "no_external_contact": true,
+        "explicit_approval_before_consequential_action": true,
+        "background_research": "approval_required",
+        "automatic_code_activation": false,
+        "automatic_memory_activation": false
+      }
+    },
+    {
+      "file": "maya_opportunity_report_values_aware_candidate.json",
+      "status": "candidate_only",
+      "proposal_key": null,
+      "requires_approval": null,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "no_income_guarantees": true,
+        "no_private_data_in_web_queries": true,
+        "no_purchases_or_trades": true,
+        "no_external_contact": true,
+        "explicit_approval_before_consequential_action": true,
+        "background_research": "approval_required",
+        "automatic_code_activation": false,
+        "automatic_memory_activation": false
+      }
+    },
+    {
+      "file": "maya_opportunity_report_values_candidate.json",
+      "status": "approved",
+      "proposal_key": null,
+      "requires_approval": null,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "no_income_guarantees": true,
+        "no_private_data_in_web_queries": true,
+        "no_purchases_or_trades": true,
+        "no_external_contact": true,
+        "explicit_approval_before_consequential_action": true,
+        "background_research": "approval_required",
+        "automatic_code_activation": false,
+        "automatic_memory_activation": false
+      }
+    },
+    {
+      "file": "maya_research_freshness.json",
+      "status": "review_only",
+      "proposal_key": "research_freshness_summary",
+      "requires_approval": true,
+      "risk": "low",
+      "reversibility": "high",
+      "automatic_activation": false,
+      "safeguards": {
+        "network_access_performed": false,
+        "trusted_memory_modified": false,
+        "automatic_browsing": false,
+        "automatic_learning": false,
+        "automatic_activation": false,
+        "approval_required": true
+      }
+    },
+    {
+      "file": "maya_research_freshness_candidate.json",
+      "status": "review_only",
+      "proposal_key": "research_freshness_summary",
+      "requires_approval": true,
+      "risk": "low",
+      "reversibility": "high",
+      "automatic_activation": false,
+      "safeguards": {
+        "network_access_performed": false,
+        "trusted_memory_modified": false,
+        "automatic_browsing": false,
+        "automatic_learning": false,
+        "automatic_activation": false,
+        "approval_required": true
+      }
+    },
+    {
+      "file": "maya_research_freshness_proposal.json",
+      "status": "unspecified",
+      "proposal_key": null,
+      "requires_approval": null,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {}
+    },
+    {
+      "file": "maya_role_policy_candidate.json",
+      "status": "candidate_only",
+      "proposal_key": null,
+      "requires_approval": null,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "automatic_code_activation": false,
+        "automatic_memory_activation": false,
+        "background_research": "approval_required",
+        "network_mode": "read_only_allowlist_only",
+        "observation_mode": "approved_local_signals_only",
+        "rollback_required": true,
+        "audit_log_required": true,
+        "human_approval_required": true
+      }
+    },
+    {
+      "file": "maya_supervised_research_learning.json",
+      "status": "review_only",
+      "proposal_key": null,
+      "requires_approval": true,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "trusted_memory_modified": false,
+        "automatic_learning": false,
+        "automatic_pattern_creation": false,
+        "network_write": false,
+        "allowlist_only": true,
+        "read_only_research": true,
+        "approval_required_for_memory_promotion": true,
+        "empty_input_handled_transparently": true
+      }
+    },
+    {
+      "file": "maya_supervised_research_learning_candidate.json",
+      "status": "review_only",
+      "proposal_key": null,
+      "requires_approval": true,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "trusted_memory_modified": false,
+        "automatic_learning": false,
+        "automatic_pattern_creation": false,
+        "network_write": false,
+        "allowlist_only": true,
+        "read_only_research": true,
+        "approval_required_for_memory_promotion": true,
+        "empty_input_handled_transparently": true
+      }
+    },
+    {
+      "file": "maya_supervised_research_learning_candidate.preview.json",
+      "status": "review_only",
+      "proposal_key": null,
+      "requires_approval": true,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "trusted_memory_modified": false,
+        "automatic_learning": false,
+        "automatic_pattern_creation": false,
+        "network_write": false,
+        "allowlist_only": true,
+        "read_only_research": true,
+        "approval_required_for_memory_promotion": true,
+        "empty_input_handled_transparently": true
+      }
+    },
+    {
+      "file": "maya_values_policy_candidate.json",
+      "status": "candidate_only",
+      "proposal_key": null,
+      "requires_approval": null,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {}
+    },
+    {
+      "file": "maya_weekly_focus.json",
+      "status": "review_only",
+      "proposal_key": null,
+      "requires_approval": null,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "tasks_modified": false,
+        "automatic_task_changes": false,
+        "automatic_memory_update": false,
+        "approval_required_for_actions": true
+      }
+    },
+    {
+      "file": "maya_weekly_focus_candidate.json",
+      "status": "review_only",
+      "proposal_key": null,
+      "requires_approval": null,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "tasks_modified": false,
+        "automatic_task_changes": false,
+        "automatic_memory_update": false,
+        "approval_required_for_actions": true
+      }
+    }
+  ],
+  "tracked_files": [
+    {
+      "file": "maya_evidence_cluster.json",
+      "status": "review_only",
+      "proposal_key": null,
+      "requires_approval": null,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "source_modified": false,
+        "trusted_memory_modified": false,
+        "patterns_created": false,
+        "automatic_approval": false,
+        "network_access": false,
+        "approval_required_for_pattern_activation": true
+      }
+    },
+    {
+      "file": "maya_evidence_cluster_candidate.json",
+      "status": "review_only",
+      "proposal_key": null,
+      "requires_approval": null,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "source_modified": false,
+        "trusted_memory_modified": false,
+        "patterns_created": false,
+        "automatic_approval": false,
+        "network_access": false,
+        "approval_required_for_pattern_activation": true
+      }
+    },
+    {
+      "file": "maya_evidence_cluster_candidate.preview.json",
+      "status": "review_only",
+      "proposal_key": null,
+      "requires_approval": null,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "source_modified": false,
+        "trusted_memory_modified": false,
+        "patterns_created": false,
+        "automatic_approval": false,
+        "network_access": false,
+        "approval_required_for_pattern_activation": true
+      }
+    },
+    {
+      "file": "maya_improvement_queue_candidate.json",
+      "status": "review_only",
+      "proposal_key": null,
+      "requires_approval": null,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "automatic_activation": false,
+        "automatic_memory_update": false,
+        "sandbox_test_required": true,
+        "rollback_required": true,
+        "audit_log_required": true,
+        "andy_approval_required": true,
+        "background_research": "approval_required",
+        "financial_action": "explicit_confirmation_required"
+      }
+    },
+    {
+      "file": "maya_income_report_comparison.json",
+      "status": "review_only",
+      "proposal_key": null,
+      "requires_approval": true,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "source_modified": false,
+        "automatic_financial_action": false,
+        "income_guarantee": false,
+        "invented_estimates": false,
+        "network_access": false,
+        "approval_required_for_follow_up": true
+      }
+    },
+    {
+      "file": "maya_income_report_comparison.preview.json",
+      "status": "review_only",
+      "proposal_key": null,
+      "requires_approval": true,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "source_modified": false,
+        "automatic_financial_action": false,
+        "income_guarantee": false,
+        "invented_estimates": false,
+        "network_access": false,
+        "approval_required_for_follow_up": true
+      }
+    },
+    {
+      "file": "maya_income_report_comparison_candidate.json",
+      "status": "review_only",
+      "proposal_key": null,
+      "requires_approval": true,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "source_modified": false,
+        "automatic_financial_action": false,
+        "income_guarantee": false,
+        "invented_estimates": false,
+        "network_access": false,
+        "approval_required_for_follow_up": true
+      }
+    },
+    {
+      "file": "maya_opportunity_dashboard_candidate.json",
+      "status": "review_only",
+      "proposal_key": null,
+      "requires_approval": null,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "review_only": true,
+        "automatic_activation": false,
+        "automatic_memory_update": false,
+        "background_research": "approval_required",
+        "financial_action": "explicit_confirmation_required",
+        "private_data_export": false
+      }
+    },
+    {
+      "file": "maya_opportunity_report_candidate.json",
+      "status": "candidate_only",
+      "proposal_key": null,
+      "requires_approval": null,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "no_income_guarantees": true,
+        "no_private_data_in_web_queries": true,
+        "no_purchases_or_trades": true,
+        "no_external_contact": true,
+        "explicit_approval_before_consequential_action": true,
+        "background_research": "approval_required",
+        "automatic_code_activation": false,
+        "automatic_memory_activation": false
+      }
+    },
+    {
+      "file": "maya_opportunity_report_values_aware_candidate.json",
+      "status": "candidate_only",
+      "proposal_key": null,
+      "requires_approval": null,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "no_income_guarantees": true,
+        "no_private_data_in_web_queries": true,
+        "no_purchases_or_trades": true,
+        "no_external_contact": true,
+        "explicit_approval_before_consequential_action": true,
+        "background_research": "approval_required",
+        "automatic_code_activation": false,
+        "automatic_memory_activation": false
+      }
+    },
+    {
+      "file": "maya_opportunity_report_values_candidate.json",
+      "status": "approved",
+      "proposal_key": null,
+      "requires_approval": null,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "no_income_guarantees": true,
+        "no_private_data_in_web_queries": true,
+        "no_purchases_or_trades": true,
+        "no_external_contact": true,
+        "explicit_approval_before_consequential_action": true,
+        "background_research": "approval_required",
+        "automatic_code_activation": false,
+        "automatic_memory_activation": false
+      }
+    },
+    {
+      "file": "maya_research_freshness.json",
+      "status": "review_only",
+      "proposal_key": "research_freshness_summary",
+      "requires_approval": true,
+      "risk": "low",
+      "reversibility": "high",
+      "automatic_activation": false,
+      "safeguards": {
+        "network_access_performed": false,
+        "trusted_memory_modified": false,
+        "automatic_browsing": false,
+        "automatic_learning": false,
+        "automatic_activation": false,
+        "approval_required": true
+      }
+    },
+    {
+      "file": "maya_research_freshness_candidate.json",
+      "status": "review_only",
+      "proposal_key": "research_freshness_summary",
+      "requires_approval": true,
+      "risk": "low",
+      "reversibility": "high",
+      "automatic_activation": false,
+      "safeguards": {
+        "network_access_performed": false,
+        "trusted_memory_modified": false,
+        "automatic_browsing": false,
+        "automatic_learning": false,
+        "automatic_activation": false,
+        "approval_required": true
+      }
+    },
+    {
+      "file": "maya_research_freshness_proposal.json",
+      "status": "unspecified",
+      "proposal_key": null,
+      "requires_approval": null,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {}
+    },
+    {
+      "file": "maya_role_policy_candidate.json",
+      "status": "candidate_only",
+      "proposal_key": null,
+      "requires_approval": null,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "automatic_code_activation": false,
+        "automatic_memory_activation": false,
+        "background_research": "approval_required",
+        "network_mode": "read_only_allowlist_only",
+        "observation_mode": "approved_local_signals_only",
+        "rollback_required": true,
+        "audit_log_required": true,
+        "human_approval_required": true
+      }
+    },
+    {
+      "file": "maya_supervised_research_learning.json",
+      "status": "review_only",
+      "proposal_key": null,
+      "requires_approval": true,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "trusted_memory_modified": false,
+        "automatic_learning": false,
+        "automatic_pattern_creation": false,
+        "network_write": false,
+        "allowlist_only": true,
+        "read_only_research": true,
+        "approval_required_for_memory_promotion": true,
+        "empty_input_handled_transparently": true
+      }
+    },
+    {
+      "file": "maya_supervised_research_learning.preview.json",
+      "status": "unspecified",
+      "proposal_key": null,
+      "requires_approval": null,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {}
+    },
+    {
+      "file": "maya_supervised_research_learning_candidate.json",
+      "status": "review_only",
+      "proposal_key": null,
+      "requires_approval": true,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "trusted_memory_modified": false,
+        "automatic_learning": false,
+        "automatic_pattern_creation": false,
+        "network_write": false,
+        "allowlist_only": true,
+        "read_only_research": true,
+        "approval_required_for_memory_promotion": true,
+        "empty_input_handled_transparently": true
+      }
+    },
+    {
+      "file": "maya_supervised_research_learning_candidate.preview.json",
+      "status": "review_only",
+      "proposal_key": null,
+      "requires_approval": true,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "trusted_memory_modified": false,
+        "automatic_learning": false,
+        "automatic_pattern_creation": false,
+        "network_write": false,
+        "allowlist_only": true,
+        "read_only_research": true,
+        "approval_required_for_memory_promotion": true,
+        "empty_input_handled_transparently": true
+      }
+    },
+    {
+      "file": "maya_values_policy_candidate.json",
+      "status": "candidate_only",
+      "proposal_key": null,
+      "requires_approval": null,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {}
+    },
+    {
+      "file": "maya_weekly_focus.json",
+      "status": "review_only",
+      "proposal_key": null,
+      "requires_approval": null,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "tasks_modified": false,
+        "automatic_task_changes": false,
+        "automatic_memory_update": false,
+        "approval_required_for_actions": true
+      }
+    },
+    {
+      "file": "maya_weekly_focus_candidate.json",
+      "status": "review_only",
+      "proposal_key": null,
+      "requires_approval": null,
+      "risk": null,
+      "reversibility": null,
+      "automatic_activation": false,
+      "safeguards": {
+        "tasks_modified": false,
+        "automatic_task_changes": false,
+        "automatic_memory_update": false,
+        "approval_required_for_actions": true
+      }
+    }
+  ],
+  "recent_audit_events": [
+    {
+      "event": "pending_inference_created",
+      "approved_by": "Andy",
+      "backup": "andy_profile.json.before_workflow_candidate_20260816_065722",
+      "review_only": null,
+      "automatic_activation": null,
+      "approval_required": null
+    },
+    {
+      "event": "inference_approved",
+      "approved_by": "Andy",
+      "backup": "andy_profile.json.before_workflow_approval_20260816_065828",
+      "review_only": null,
+      "automatic_activation": null,
+      "approval_required": null
+    },
+    {
+      "event": "chat_profile_integration_activated",
+      "approved_by": "Andy",
+      "backup": "maya_chat.py.before_profile_integration_20260816_072730",
+      "review_only": null,
+      "automatic_activation": null,
+      "approval_required": null
+    },
+    {
+      "event": "research_status_sync_activated",
+      "approved_by": "Andy",
+      "backup": "learning_status.json.before_research_sync_20260816_075450",
+      "review_only": null,
+      "automatic_activation": null,
+      "approval_required": null
+    },
+    {
+      "event": "network_persistence_fix_activated",
+      "approved_by": "Andy",
+      "backup": "maya_learning.py.before_network_persistence_20260816_080519",
+      "review_only": null,
+      "automatic_activation": null,
+      "approval_required": null
+    },
+    {
+      "event": "andy_benefit_primary_role_activated",
+      "approved_by": "Andy",
+      "backup": "none",
+      "review_only": null,
+      "automatic_activation": null,
+      "approval_required": null
+    },
+    {
+      "event": "chat_role_integration_activated",
+      "approved_by": "Andy",
+      "backup": "maya_chat.py.before_role_integration_20260816_104931",
+      "review_only": null,
+      "automatic_activation": null,
+      "approval_required": null
+    },
+    {
+      "event": "three_pattern_candidates_approved",
+      "approved_by": "Andy",
+      "backup": "andy_profile.json.before_three_pattern_approval_20260816_105837",
+      "review_only": null,
+      "automatic_activation": null,
+      "approval_required": null
+    },
+    {
+      "event": "opportunity_function_activated",
+      "approved_by": "Andy",
+      "backup": null,
+      "review_only": null,
+      "automatic_activation": null,
+      "approval_required": null
+    },
+    {
+      "event": "optional_values_policy_activated",
+      "approved_by": "Andy",
+      "backup": "none",
+      "review_only": null,
+      "automatic_activation": null,
+      "approval_required": null
+    },
+    {
+      "event": "values_integration_activated",
+      "approved_by": "Andy",
+      "backup": null,
+      "review_only": null,
+      "automatic_activation": null,
+      "approval_required": null
+    },
+    {
+      "event": "values_aware_opportunity_report_activated",
+      "approved_by": "Andy",
+      "backup": "maya_opportunity_report.json.before_values_aware_20260816_112617",
+      "review_only": null,
+      "automatic_activation": null,
+      "approval_required": null
+    },
+    {
+      "event": "income_opportunity_report_generator_activated",
+      "approved_by": "Andy",
+      "backup": "none",
+      "review_only": null,
+      "automatic_activation": null,
+      "approval_required": null
+    },
+    {
+      "event": "opportunity_dashboard_activated",
+      "approved_by": "Andy",
+      "backup": "none",
+      "review_only": true,
+      "automatic_activation": false,
+      "approval_required": null
+    },
+    {
+      "event": "improvement_queue_activated",
+      "approved_by": "Andy",
+      "backup": "none",
+      "review_only": true,
+      "automatic_activation": false,
+      "approval_required": null
+    },
+    {
+      "event": "weekly_focus_refinement_activated",
+      "approved_by": "Andy",
+      "backup": "none",
+      "review_only": null,
+      "automatic_activation": null,
+      "approval_required": null
+    },
+    {
+      "event": "evidence_cluster_review_activated",
+      "approved_by": "Andy",
+      "backup": "none",
+      "review_only": null,
+      "automatic_activation": null,
+      "approval_required": null
+    },
+    {
+      "event": "income_report_comparison_activated",
+      "approved_by": "Andy",
+      "backup": "none",
+      "review_only": null,
+      "automatic_activation": null,
+      "approval_required": null
+    },
+    {
+      "event": "supervised_research_learning_activated",
+      "approved_by": "Andy",
+      "backup": "none",
+      "review_only": null,
+      "automatic_activation": null,
+      "approval_required": null
+    },
+    {
+      "event": "research_freshness_summary_activated",
+      "approved_by": "Andy",
+      "backup": "none",
+      "review_only": null,
+      "automatic_activation": false,
+      "approval_required": true
+    }
+  ],
+  "controls": {
+    "read_only": true,
+    "approval_actions_executed": false,
+    "activation_actions_executed": false,
+    "memory_modified": false,
+    "network_access": false,
+    "dashboard_writes_only_to_candidate_output": true,
+    "explicit_Andy_approval_required": true
+  }
+}

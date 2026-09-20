@@ -1,0 +1,146 @@
+{
+  "case": "Apollo 13",
+  "cutoff": "immediately after oxygen tank failure and initial system alarms",
+  "input_event_count": 11,
+  "blind_input": [
+    "Apollo 13 was intended to land in the Fra Mauro area of the Moon.",
+    "The first two days were generally smooth, aside from minor surprises.",
+    "Ground testing had previously found that oxygen tank number 2 did not detank normally.",
+    "The tank had been damaged during an earlier removal and was later tested after modification.",
+    "An electrical heater was used for about eight hours to boil off remaining oxygen during ground testing.",
+    "At about 55 hours 53 minutes after liftoff the crew was instructed to stir the cryogenic tanks.",
+    "Soon after, oxygen tank number 2 showed pressure and sensor abnormalities and electrical disturbances.",
+    "A large bang was followed by main bus undervoltage and loss of fuel-cell capacity.",
+    "Oxygen was rapidly depleting and oxygen tank number 1 pressure also began to fall.",
+    "The crew reported a problem and began closing the tunnel while ground controllers assessed the situation.",
+    "The command module's normal electrical power, light, and water supply were threatened."
+  ],
+  "mapper_output": {
+    "opportunity_mapper": {
+      "purpose": "Map approved and provisional patterns to possible directions.",
+      "status": "review_only",
+      "source_count": 11,
+      "source_types": [
+        "historical_holdout"
+      ],
+      "constraints_detected": [],
+      "negation_terms_detected": [
+        "not"
+      ],
+      "candidates": [],
+      "uncertainty": [
+        "This is relative evidence fit, not a calibrated probability or prediction.",
+        "Patterns can be incomplete, stale, or misinterpreted.",
+        "No memory, permission, purchase, message, trade, or external action was performed."
+      ]
+    },
+    "event_stream_mapper": {
+      "purpose": "Bounded sequence review of user-supplied events",
+      "status": "review_only",
+      "event_count": 11,
+      "patterns": [
+        {
+          "name": "known-hazard-escalation",
+          "evidence": "earlier anomaly or damage is followed by later abnormal behavior",
+          "confidence": "moderate"
+        },
+        {
+          "name": "cascading-system-failure",
+          "evidence": "an initial failure creates secondary resource or safety degradation",
+          "confidence": "moderate"
+        },
+        {
+          "name": "human-decision-under-uncertainty",
+          "evidence": "people are assessing incomplete signals before choosing a response",
+          "confidence": "tentative"
+        },
+        {
+          "name": "objective-at-risk",
+          "evidence": "The planned lunar landing is threatened; identify the safer mission objective.",
+          "confidence": "tentative"
+        },
+        {
+          "name": "small-experiment",
+          "evidence": "a bounded experiment is available before a larger commitment",
+          "confidence": "moderate"
+        },
+        {
+          "name": "parallel-transition",
+          "evidence": "an existing path continues while a new path is built",
+          "confidence": "tentative"
+        }
+      ],
+      "risk_states": {
+        "resource_depletion": [
+          "deplet",
+          "loss of",
+          "pressure"
+        ],
+        "system_failure": [
+          "undervolt",
+          "bang",
+          "damaged",
+          "abnormal"
+        ],
+        "life_support_or_safety": [
+          "oxygen",
+          "water"
+        ],
+        "uncertainty": [
+          "assess",
+          "sensor"
+        ]
+      },
+      "response_options": [
+        "protect scarce resources and define a minimum safe state",
+        "isolate failed components and validate a backup path in simulation before execution",
+        "separate observed facts from inferred causes and maintain multiple live hypotheses"
+      ],
+      "uncertainty": [
+        "This is a structured pattern review, not a calibrated probability or prediction.",
+        "The mapper cannot know held-out events and should not claim an exact future outcome.",
+        "Human review is required before any real-world response."
+      ],
+      "memory_update": "not_performed",
+      "external_action": "not_performed"
+    }
+  },
+  "held_out_outcome": {
+    "mission_landing": "aborted",
+    "primary_response": "use the lunar module as a lifeboat and develop new procedures",
+    "resource_strategy": "conserve power, water, and carbon-dioxide removal capacity",
+    "final_outcome": "crew returned safely to Earth",
+    "learning_outcome": "successful failure with substantial operational learning"
+  },
+  "evaluation": {
+    "patterns_expected": {
+      "known_hazard_escalation": "prior test anomaly + damaged component + later abnormal readings",
+      "cascading_system_failure": "oxygen loss -> electrical/fuel-cell loss -> life-support risk",
+      "adaptive_response": "switch to backup habitat, improvise procedures, and conserve scarce resources",
+      "human_decision_under_uncertainty": "controllers and crew must validate new procedures before execution",
+      "goal_reframing": "lunar landing objective becomes safe return objective"
+    },
+    "pattern_hits": {
+      "known_hazard_escalation": true,
+      "cascading_system_failure": true,
+      "adaptive_response": true,
+      "human_decision_under_uncertainty": true,
+      "goal_reframing": true
+    },
+    "pattern_coverage": 1.0,
+    "held_out_outcome_not_fed_to_mapper": true,
+    "limitations": [
+      "The current candidate ontology is opportunity-oriented; it does not model mission state, failure cascades, resource budgets, or response sequencing.",
+      "The mapper can detect lexical overlap but cannot infer the Apollo 13 rescue sequence from the historical event stream alone.",
+      "The output contains relative evidence-fit bands, not a calibrated forecast or a time-indexed next-state distribution.",
+      "The current safe experiment field is generic and not connected to observed system constraints."
+    ],
+    "interpretation": "A low or partial coverage score indicates an ontology and temporal-reasoning gap, not that the safety walls failed."
+  },
+  "safety": {
+    "memory_write": false,
+    "external_action": false,
+    "permission_change": false,
+    "profile_state_mutated": false
+  }
+}

@@ -1,0 +1,572 @@
+{
+  "scenario_count": 6,
+  "individual_synthetic_count": 3,
+  "circumstance_count": 3,
+  "baseline_average_coverage": 0.0,
+  "hardened_average_coverage": 0.93,
+  "baseline_failure_rate": 1.0,
+  "hardened_failure_rate": 0.07,
+  "rows": [
+    {
+      "id": "apollo13",
+      "kind": "circumstance",
+      "source": "NASA",
+      "baseline": {
+        "candidate_count": 0,
+        "status": "review_only"
+      },
+      "hardened": {
+        "expected": [
+          "cascading-system-failure",
+          "human-decision-under-uncertainty",
+          "known-hazard-escalation",
+          "objective-at-risk"
+        ],
+        "found": [
+          "cascading-system-failure",
+          "human-decision-under-uncertainty",
+          "known-hazard-escalation",
+          "life_support_or_safety",
+          "objective-at-risk",
+          "parallel-transition",
+          "resource_depletion",
+          "small-experiment",
+          "system_failure",
+          "uncertainty"
+        ],
+        "hits": [
+          "cascading-system-failure",
+          "human-decision-under-uncertainty",
+          "known-hazard-escalation",
+          "objective-at-risk"
+        ],
+        "misses": [],
+        "coverage": 1.0
+      },
+      "held_out": "The landing was aborted; the lunar module became a lifeboat and the crew returned safely.",
+      "hardened_output": {
+        "purpose": "Bounded sequence review of user-supplied events",
+        "status": "review_only",
+        "event_count": 11,
+        "patterns": [
+          {
+            "name": "known-hazard-escalation",
+            "evidence": "earlier anomaly or damage is followed by later abnormal behavior",
+            "confidence": "moderate"
+          },
+          {
+            "name": "cascading-system-failure",
+            "evidence": "an initial failure creates secondary resource or safety degradation",
+            "confidence": "moderate"
+          },
+          {
+            "name": "human-decision-under-uncertainty",
+            "evidence": "people are assessing incomplete signals before choosing a response",
+            "confidence": "tentative"
+          },
+          {
+            "name": "objective-at-risk",
+            "evidence": "Protect the crew while the planned lunar landing is threatened.",
+            "confidence": "tentative"
+          },
+          {
+            "name": "small-experiment",
+            "evidence": "a bounded experiment is available before a larger commitment",
+            "confidence": "moderate"
+          },
+          {
+            "name": "parallel-transition",
+            "evidence": "an existing path continues while a new path is built",
+            "confidence": "tentative"
+          }
+        ],
+        "risk_states": {
+          "resource_depletion": [
+            "deplet",
+            "loss of",
+            "pressure"
+          ],
+          "system_failure": [
+            "undervolt",
+            "bang",
+            "damaged",
+            "abnormal"
+          ],
+          "life_support_or_safety": [
+            "oxygen",
+            "water"
+          ],
+          "uncertainty": [
+            "assess",
+            "sensor"
+          ]
+        },
+        "response_options": [
+          "protect scarce resources and define a minimum safe state",
+          "isolate failed components and validate a backup path in simulation before execution",
+          "separate observed facts from inferred causes and maintain multiple live hypotheses"
+        ],
+        "uncertainty": [
+          "This is a structured pattern review, not a calibrated probability or prediction.",
+          "The mapper cannot know held-out events and should not claim an exact future outcome.",
+          "Human review is required before any real-world response."
+        ],
+        "memory_update": "not_performed",
+        "external_action": "not_performed"
+      }
+    },
+    {
+      "id": "chilean_miners",
+      "kind": "circumstance",
+      "source": "NASA",
+      "baseline": {
+        "candidate_count": 1,
+        "status": "review_only"
+      },
+      "hardened": {
+        "expected": [
+          "cascading-system-failure",
+          "fallback-and-redundancy",
+          "human-decision-under-uncertainty",
+          "objective-at-risk",
+          "resource-preservation"
+        ],
+        "found": [
+          "alternative-paths",
+          "cascading-system-failure",
+          "conflict-and-constraint",
+          "decision-point",
+          "fallback-and-redundancy",
+          "human-decision-under-uncertainty",
+          "life_support_or_safety",
+          "objective-at-risk",
+          "parallel-transition",
+          "resource-preservation",
+          "uncertainty"
+        ],
+        "hits": [
+          "cascading-system-failure",
+          "fallback-and-redundancy",
+          "human-decision-under-uncertainty",
+          "objective-at-risk",
+          "resource-preservation"
+        ],
+        "misses": [],
+        "coverage": 1.0
+      },
+      "held_out": "The miners were rescued after a prolonged, coordinated recovery operation.",
+      "hardened_output": {
+        "purpose": "Bounded sequence review of user-supplied events",
+        "status": "review_only",
+        "event_count": 7,
+        "patterns": [
+          {
+            "name": "cascading-system-failure",
+            "evidence": "an initial failure creates secondary resource or safety degradation",
+            "confidence": "moderate"
+          },
+          {
+            "name": "human-decision-under-uncertainty",
+            "evidence": "people are assessing incomplete signals before choosing a response",
+            "confidence": "tentative"
+          },
+          {
+            "name": "objective-at-risk",
+            "evidence": "Locate and safely recover trapped miners under uncertain underground conditions.",
+            "confidence": "tentative"
+          },
+          {
+            "name": "conflict-and-constraint",
+            "evidence": "goals or actions are bounded by competing priorities or limited resources",
+            "confidence": "tentative"
+          },
+          {
+            "name": "decision-point",
+            "evidence": "the event stream contains an explicit choice or commitment point",
+            "confidence": "tentative"
+          },
+          {
+            "name": "alternative-paths",
+            "evidence": "more than one path or plan is being considered",
+            "confidence": "tentative"
+          },
+          {
+            "name": "parallel-transition",
+            "evidence": "an existing path continues while a new path is built",
+            "confidence": "tentative"
+          },
+          {
+            "name": "fallback-and-redundancy",
+            "evidence": "multiple backup or recovery paths are present",
+            "confidence": "tentative"
+          },
+          {
+            "name": "resource-preservation",
+            "evidence": "a scarce resource must be protected while the situation unfolds",
+            "confidence": "moderate"
+          }
+        ],
+        "risk_states": {
+          "life_support_or_safety": [
+            "water"
+          ],
+          "uncertainty": [
+            "uncertain",
+            "considered"
+          ]
+        },
+        "response_options": [
+          "protect scarce resources and define a minimum safe state",
+          "separate observed facts from inferred causes and maintain multiple live hypotheses"
+        ],
+        "uncertainty": [
+          "This is a structured pattern review, not a calibrated probability or prediction.",
+          "The mapper cannot know held-out events and should not claim an exact future outcome.",
+          "Human review is required before any real-world response."
+        ],
+        "memory_update": "not_performed",
+        "external_action": "not_performed"
+      }
+    },
+    {
+      "id": "netflix_streaming_pivot",
+      "kind": "circumstance",
+      "source": "Netflix",
+      "baseline": {
+        "candidate_count": 1,
+        "status": "review_only"
+      },
+      "hardened": {
+        "expected": [
+          "environmental-shift",
+          "objective-at-risk",
+          "parallel-transition",
+          "resource-allocation-tradeoff",
+          "uncertainty"
+        ],
+        "found": [
+          "conflict-and-constraint",
+          "environmental-shift",
+          "human-decision-under-uncertainty",
+          "objective-at-risk",
+          "parallel-transition",
+          "resource-allocation-tradeoff",
+          "uncertainty"
+        ],
+        "hits": [
+          "environmental-shift",
+          "objective-at-risk",
+          "parallel-transition",
+          "resource-allocation-tradeoff",
+          "uncertainty"
+        ],
+        "misses": [],
+        "coverage": 1.0
+      },
+      "held_out": "Streaming became the central service while DVD distribution was later wound down.",
+      "hardened_output": {
+        "purpose": "Bounded sequence review of user-supplied events",
+        "status": "review_only",
+        "event_count": 6,
+        "patterns": [
+          {
+            "name": "human-decision-under-uncertainty",
+            "evidence": "people are assessing incomplete signals before choosing a response",
+            "confidence": "tentative"
+          },
+          {
+            "name": "objective-at-risk",
+            "evidence": "Preserve the service's long-term relevance as delivery technology changes.",
+            "confidence": "tentative"
+          },
+          {
+            "name": "conflict-and-constraint",
+            "evidence": "goals or actions are bounded by competing priorities or limited resources",
+            "confidence": "tentative"
+          },
+          {
+            "name": "environmental-shift",
+            "evidence": "the surrounding technical or market environment is changing",
+            "confidence": "tentative"
+          },
+          {
+            "name": "parallel-transition",
+            "evidence": "an existing path continues while a new path is built",
+            "confidence": "tentative"
+          },
+          {
+            "name": "resource-allocation-tradeoff",
+            "evidence": "resources must be divided between current operations and a new direction",
+            "confidence": "tentative"
+          }
+        ],
+        "risk_states": {
+          "uncertainty": [
+            "uncertain",
+            "uncertainty"
+          ]
+        },
+        "response_options": [
+          "separate observed facts from inferred causes and maintain multiple live hypotheses"
+        ],
+        "uncertainty": [
+          "This is a structured pattern review, not a calibrated probability or prediction.",
+          "The mapper cannot know held-out events and should not claim an exact future outcome.",
+          "Human review is required before any real-world response."
+        ],
+        "memory_update": "not_performed",
+        "external_action": "not_performed"
+      }
+    },
+    {
+      "id": "individual_career_choice",
+      "kind": "individual_synthetic",
+      "source": "synthetic_fixture",
+      "baseline": {
+        "candidate_count": 4,
+        "status": "review_only"
+      },
+      "hardened": {
+        "expected": [
+          "conflict-and-constraint",
+          "decision-point",
+          "repeated-interest-signals",
+          "small-experiment"
+        ],
+        "found": [
+          "conflict-and-constraint",
+          "decision-point",
+          "objective-at-risk",
+          "repeated-interest-signals",
+          "small-experiment"
+        ],
+        "hits": [
+          "conflict-and-constraint",
+          "decision-point",
+          "repeated-interest-signals",
+          "small-experiment"
+        ],
+        "misses": [],
+        "coverage": 1.0
+      },
+      "held_out": "They run a small creative-technical pilot before choosing a longer-term specialization.",
+      "hardened_output": {
+        "purpose": "Bounded sequence review of user-supplied events",
+        "status": "review_only",
+        "event_count": 5,
+        "patterns": [
+          {
+            "name": "objective-at-risk",
+            "evidence": "Choose a career direction without discarding useful existing skills.",
+            "confidence": "tentative"
+          },
+          {
+            "name": "repeated-interest-signals",
+            "evidence": "the same theme or behavior recurs across observations",
+            "confidence": "tentative"
+          },
+          {
+            "name": "conflict-and-constraint",
+            "evidence": "goals or actions are bounded by competing priorities or limited resources",
+            "confidence": "tentative"
+          },
+          {
+            "name": "decision-point",
+            "evidence": "the event stream contains an explicit choice or commitment point",
+            "confidence": "tentative"
+          },
+          {
+            "name": "small-experiment",
+            "evidence": "a bounded experiment is available before a larger commitment",
+            "confidence": "moderate"
+          }
+        ],
+        "risk_states": {},
+        "response_options": [
+          "protect scarce resources and define a minimum safe state"
+        ],
+        "uncertainty": [
+          "This is a structured pattern review, not a calibrated probability or prediction.",
+          "The mapper cannot know held-out events and should not claim an exact future outcome.",
+          "Human review is required before any real-world response."
+        ],
+        "memory_update": "not_performed",
+        "external_action": "not_performed"
+      }
+    },
+    {
+      "id": "individual_learning_plateau",
+      "kind": "individual_synthetic",
+      "source": "synthetic_fixture",
+      "baseline": {
+        "candidate_count": 1,
+        "status": "review_only"
+      },
+      "hardened": {
+        "expected": [
+          "repeated-interest-signals",
+          "resource-preservation",
+          "small-experiment",
+          "trend-with-noise",
+          "uncertainty"
+        ],
+        "found": [
+          "conflict-and-constraint",
+          "repeated-interest-signals",
+          "small-experiment",
+          "trend-with-noise"
+        ],
+        "hits": [
+          "repeated-interest-signals",
+          "small-experiment",
+          "trend-with-noise"
+        ],
+        "misses": [
+          "resource-preservation",
+          "uncertainty"
+        ],
+        "coverage": 0.6
+      },
+      "held_out": "The learner gets targeted feedback, adjusts practice, and continues with a smaller routine.",
+      "hardened_output": {
+        "purpose": "Bounded sequence review of user-supplied events",
+        "status": "review_only",
+        "event_count": 5,
+        "patterns": [
+          {
+            "name": "repeated-interest-signals",
+            "evidence": "the same theme or behavior recurs across observations",
+            "confidence": "tentative"
+          },
+          {
+            "name": "conflict-and-constraint",
+            "evidence": "goals or actions are bounded by competing priorities or limited resources",
+            "confidence": "tentative"
+          },
+          {
+            "name": "small-experiment",
+            "evidence": "a bounded experiment is available before a larger commitment",
+            "confidence": "moderate"
+          },
+          {
+            "name": "trend-with-noise",
+            "evidence": "repeated observations show change without a clean monotonic trend",
+            "confidence": "tentative"
+          }
+        ],
+        "risk_states": {},
+        "response_options": [],
+        "uncertainty": [
+          "This is a structured pattern review, not a calibrated probability or prediction.",
+          "The mapper cannot know held-out events and should not claim an exact future outcome.",
+          "Human review is required before any real-world response."
+        ],
+        "memory_update": "not_performed",
+        "external_action": "not_performed"
+      }
+    },
+    {
+      "id": "individual_competing_priorities",
+      "kind": "individual_synthetic",
+      "source": "synthetic_fixture",
+      "baseline": {
+        "candidate_count": 3,
+        "status": "review_only"
+      },
+      "hardened": {
+        "expected": [
+          "alternative-paths",
+          "conflict-and-constraint",
+          "negation-or-exclusion",
+          "repeated-interest-signals",
+          "small-experiment"
+        ],
+        "found": [
+          "alternative-paths",
+          "conflict-and-constraint",
+          "decision-point",
+          "negation-or-exclusion",
+          "objective-at-risk",
+          "repeated-interest-signals",
+          "resource-preservation",
+          "small-experiment"
+        ],
+        "hits": [
+          "alternative-paths",
+          "conflict-and-constraint",
+          "negation-or-exclusion",
+          "repeated-interest-signals",
+          "small-experiment"
+        ],
+        "misses": [],
+        "coverage": 1.0
+      },
+      "held_out": "They compare three bounded experiments and keep only the one that fits their constraints.",
+      "hardened_output": {
+        "purpose": "Bounded sequence review of user-supplied events",
+        "status": "review_only",
+        "event_count": 5,
+        "patterns": [
+          {
+            "name": "objective-at-risk",
+            "evidence": "Make progress on important goals while respecting time, money, and privacy constraints.",
+            "confidence": "tentative"
+          },
+          {
+            "name": "repeated-interest-signals",
+            "evidence": "the same theme or behavior recurs across observations",
+            "confidence": "tentative"
+          },
+          {
+            "name": "conflict-and-constraint",
+            "evidence": "goals or actions are bounded by competing priorities or limited resources",
+            "confidence": "tentative"
+          },
+          {
+            "name": "decision-point",
+            "evidence": "the event stream contains an explicit choice or commitment point",
+            "confidence": "tentative"
+          },
+          {
+            "name": "small-experiment",
+            "evidence": "a bounded experiment is available before a larger commitment",
+            "confidence": "moderate"
+          },
+          {
+            "name": "alternative-paths",
+            "evidence": "more than one path or plan is being considered",
+            "confidence": "tentative"
+          },
+          {
+            "name": "negation-or-exclusion",
+            "evidence": "the event stream explicitly rules out an action or category",
+            "confidence": "moderate"
+          },
+          {
+            "name": "resource-preservation",
+            "evidence": "a scarce resource must be protected while the situation unfolds",
+            "confidence": "moderate"
+          }
+        ],
+        "risk_states": {},
+        "response_options": [
+          "protect scarce resources and define a minimum safe state"
+        ],
+        "uncertainty": [
+          "This is a structured pattern review, not a calibrated probability or prediction.",
+          "The mapper cannot know held-out events and should not claim an exact future outcome.",
+          "Human review is required before any real-world response."
+        ],
+        "memory_update": "not_performed",
+        "external_action": "not_performed"
+      }
+    }
+  ],
+  "safety": {
+    "memory_write": false,
+    "external_action": false,
+    "profile_mutation": false,
+    "permission_change": false
+  },
+  "interpretation": "Coverage measures detection of predefined structural patterns in these fixtures. It is not future-prediction accuracy and cannot be generalized from six cases."
+}

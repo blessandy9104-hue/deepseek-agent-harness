@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-08-16T08:23:01.130163+00:00",
+  "status": "review_only",
+  "source": "tasks.json",
+  "open_task_count": 15,
+  "focus_tasks": [
+    {
+      "rank": 1,
+      "text": "weekly planning",
+      "next_due": "2026-08-21",
+      "repeat": "weekly",
+      "created": null
+    },
+    {
+      "rank": 2,
+      "text": "weekly planning",
+      "next_due": "2026-08-21",
+      "repeat": "weekly",
+      "created": null
+    },
+    {
+      "rank": 3,
+      "text": "weekly project review",
+      "next_due": "2026-08-21",
+      "repeat": "weekly",
+      "created": null
+    },
+    {
+      "rank": 4,
+      "text": "weekly project review",
+      "next_due": "2026-08-21",
+      "repeat": "weekly",
+      "created": null
+    },
+    {
+      "rank": 5,
+      "text": "plan the weekly review tomorrow",
+      "next_due": null,
+      "repeat": null,
+      "created": "2026-08-14 14:30"
+    },
+    {
+      "rank": 6,
+      "text": "prepare the report tomorrow",
+      "next_due": null,
+      "repeat": null,
+      "created": "2026-08-14 16:20"
+    },
+    {
+      "rank": 7,
+      "text": "Review and enable safe read-only network access later",
+      "next_due": null,
+      "repeat": null,
+      "created": "2026-08-14 16:04"
+    }
+  ],
+  "why_this_order": "earlier due dates first, then recurring planning/review work, then other unfinished tasks",
+  "suggested_next_step": "Andy chooses what to pursue; this report does not modify tasks",
+  "controls": {
+    "tasks_modified": false,
+    "automatic_task_changes": false,
+    "automatic_memory_update": false,
+    "approval_required_for_actions": true
+  }
+}

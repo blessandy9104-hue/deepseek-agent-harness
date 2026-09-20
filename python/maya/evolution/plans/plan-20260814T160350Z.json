@@ -1,0 +1,16 @@
+{
+  "plan_id": "plan-20260814T160350Z",
+  "creator": "Andy",
+  "goal": "Improve Maya coding safely",
+  "steps": [
+    "Clarify the goal and constraints",
+    "Use approved local context",
+    "Identify assumptions and risks",
+    "Prepare an isolated proposal",
+    "Test the proposal",
+    "Ask Andy for approval before action",
+    "Keep backup and rollback available"
+  ],
+  "status": "draft",
+  "approval_required": true
+}

@@ -1,0 +1,8 @@
+[
+  {
+    "opportunity": "recurring",
+    "template": "weekly_task",
+    "description": "Add weekly recurring tasks",
+    "status": "candidate"
+  }
+]

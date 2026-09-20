@@ -1,0 +1,164 @@
+{
+  "profile_version": 1,
+  "owner": {
+    "name": "Andy",
+    "relationship_to_maya": "creator and supervisor",
+    "approval_status": "approved"
+  },
+  "communication": {
+    "preferred_language": {
+      "value": "English",
+      "confidence": 1.0,
+      "status": "approved",
+      "evidence": [
+        "Andy explicitly requested English conversation"
+      ]
+    },
+    "preferred_style": {
+      "value": "natural, conversational, beginner-friendly, incremental",
+      "confidence": 0.9,
+      "status": "approved",
+      "evidence": [
+        "Repeated project instructions and feedback"
+      ]
+    }
+  },
+  "interests": {
+    "self_evolution": {
+      "category": "interests",
+      "key": "self_evolution",
+      "value": "building a self-improving, self-evolving personal assistant",
+      "confidence": 0.95,
+      "evidence": "Andy repeatedly requested self-improving and self-evolving capabilities for Maya",
+      "status": "approved",
+      "created_at": "2026-08-16T02:26:17.480689+00:00",
+      "approved_at": "2026-08-16T02:30:26.128524+00:00"
+    },
+    "philosophy": {
+      "category": "interests",
+      "key": "philosophy",
+      "value": "philosophy and philosophical knowledge",
+      "confidence": 0.65,
+      "evidence": [
+        "Andy asked Maya to learn broadly from accessible philosophical knowledge",
+        "Andy selected philosophy as an example of an interest Maya should learn from"
+      ],
+      "status": "approved",
+      "source_count": 2,
+      "approved_at": "2026-08-16T02:34:01.692337+00:00"
+    },
+    "making_money": {
+      "key": "making_money",
+      "label": "Making money and mapping ethical income opportunities",
+      "status": "approved",
+      "approved_by": "Andy",
+      "approved_at": "2026-08-16T07:08:05.647945+00:00",
+      "use": "May guide opportunity research and reports; not a permission to take financial action."
+    }
+  },
+  "decision_patterns": {
+    "staged_supervised_workflow": {
+      "key": "staged_supervised_workflow",
+      "category": "workflow_preferences",
+      "value": "Andy tends to prefer staged changes: isolated testing, evidence review, explicit approval, activation, verification, and rollback availability.",
+      "confidence": 0.7,
+      "status": "approved",
+      "evidence": [
+        "Andy approved Wake/Sleep v2 only after the candidate passed an isolated test.",
+        "Andy approved activation with a preserved backup and then requested post-activation verification."
+      ],
+      "created_at": "2026-08-16T02:57:23.087737+00:00",
+      "approved_at": "2026-08-16T02:58:28.781187+00:00"
+    },
+    "andy_planning_and_review_orientation": {
+      "key": "andy_planning_and_review_orientation",
+      "type": "workflow_preference_candidate",
+      "proposal": "Andy may benefit from proactive planning, deadline reminders, weekly reviews, and project-update support.",
+      "supporting_examples": 10,
+      "evidence_ids": [
+        "121497128d5c2de7",
+        "c5c5b9bfdfe8e25b",
+        "6b4e09bc54e4a1c0",
+        "e18d54079959974c",
+        "952449618bfeda35",
+        "bb109b61c1f768e1",
+        "240f20239c6fb609",
+        "7f7f91f54fa9a3b1",
+        "d923f41056dae449",
+        "bf20df6006ea3b10"
+      ],
+      "confidence": "moderate",
+      "status": "approved",
+      "caution": "This is a proposal, not an approved preference; task titles alone do not reveal priority or emotional importance.",
+      "approved_by": "Andy",
+      "approved_at": "2026-08-16T06:58:37.309685+00:00",
+      "activation": "approved_profile_only"
+    },
+    "andy_staged_change_and_verification": {
+      "key": "andy_staged_change_and_verification",
+      "type": "workflow_preference_candidate",
+      "proposal": "Andy may benefit from changes being researched, tested, explained, approved, activated with rollback, and verified.",
+      "supporting_examples": 2,
+      "evidence_ids": [
+        "c0c7a5dc6e63f26e",
+        "d923f41056dae449"
+      ],
+      "confidence": "moderate",
+      "status": "approved",
+      "caution": "One approved decision plus one task supports a hypothesis but is not a broad personality claim.",
+      "approved_by": "Andy",
+      "approved_at": "2026-08-16T06:58:37.309685+00:00",
+      "activation": "approved_profile_only"
+    },
+    "andy_learning_opportunity_tracks": {
+      "key": "andy_learning_opportunity_tracks",
+      "type": "benefit_opportunity_candidate",
+      "proposal": "Maya could offer optional research and learning summaries around philosophy, theoretical physics, spirituality, and computer-related topics when Andy requests them.",
+      "supporting_examples": 7,
+      "evidence_ids": [
+        "0dca39e5b8a711bd",
+        "858a152766536fee",
+        "7769f09a3dbe170e",
+        "abc388a8303e7a11",
+        "f04eca9c93718c49",
+        "f6d6d83b686b75a1",
+        "cf36631c6e596953"
+      ],
+      "confidence": "low_to_moderate",
+      "status": "approved",
+      "caution": "Public research topics are knowledge inputs, not proof of a permanent personal preference.",
+      "approved_by": "Andy",
+      "approved_at": "2026-08-16T06:58:37.309685+00:00",
+      "activation": "approved_profile_only"
+    }
+  },
+  "working_preferences": {},
+  "approved_memories": [],
+  "inferred_preferences_pending_review": [
+    {
+      "category": "interests",
+      "key": "philosophy",
+      "value": "philosophy and philosophical knowledge",
+      "confidence": 0.65,
+      "evidence": [
+        "Andy asked Maya to learn broadly from accessible philosophical knowledge",
+        "Andy selected philosophy as an example of an interest Maya should learn from"
+      ],
+      "status": "pending_review",
+      "source_count": 2
+    }
+  ],
+  "rejected_inferences": [],
+  "privacy": {
+    "local_only": true,
+    "observation_requires_approval": true,
+    "memory_updates_require_approval": true,
+    "sensitive_categories_require_approval": true
+  },
+  "metadata": {
+    "created_by": "Andy",
+    "last_reviewed": "2026-08-16T02:58:28.781187+00:00",
+    "audit_log": "evolution/activation_log.jsonl"
+  },
+  "display_name": "God"
+}

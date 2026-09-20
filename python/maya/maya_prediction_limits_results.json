@@ -1,0 +1,78 @@
+{
+  "view_count": 8,
+  "views": [
+    {
+      "name": "mixed six-case structural benchmark",
+      "coverage": 0.93,
+      "kind": "structural",
+      "real": false
+    },
+    {
+      "name": "Apollo 13 full circumstance",
+      "coverage": 1.0,
+      "kind": "structural",
+      "real": true
+    },
+    {
+      "name": "Apollo 13 individual roles",
+      "coverage": 0.85,
+      "kind": "structural",
+      "real": true
+    },
+    {
+      "name": "Apollo 13 reverse full circumstance",
+      "coverage": 1.0,
+      "kind": "reverse structural",
+      "real": true
+    },
+    {
+      "name": "Apollo 13 reverse individual roles",
+      "coverage": 0.79,
+      "kind": "reverse structural",
+      "real": true
+    },
+    {
+      "name": "Marie Curie best single middle path",
+      "coverage": 0.6,
+      "kind": "hidden-middle recall",
+      "real": true
+    },
+    {
+      "name": "Marie Curie multi-path union",
+      "coverage": 0.8,
+      "kind": "hidden-middle recall",
+      "real": true
+    },
+    {
+      "name": "Marie Curie historical societal path",
+      "coverage": 0.6,
+      "kind": "historical middle fit",
+      "real": true
+    }
+  ],
+  "indicative_mean_coverage": 0.821,
+  "indicative_mean_coverage_percent": 82.1,
+  "real_case_view_mean_coverage": 0.806,
+  "exact_outcome_metrics": {
+    "synthetic_character_top_option_match": 1.0,
+    "synthetic_character_count": 3,
+    "synthetic_collision_safety_pass_rate": 1.0,
+    "synthetic_collision_count": 4
+  },
+  "safety": {
+    "collision_privacy_leakage": 0,
+    "character_cross_leakage": 0,
+    "reverse_blame_assignment": false,
+    "head_tail_single_path_claim": false,
+    "decision_pattern_private_memory_shared": false,
+    "decision_pattern_automatic_action": false
+  },
+  "limitations": [
+    "Benchmark families overlap and are not independent samples.",
+    "Most scores measure structural pattern coverage, not exact future outcomes.",
+    "Synthetic character and collision matches cannot establish real-world accuracy.",
+    "Historical reconstruction is vulnerable to hindsight, especially reverse mapping.",
+    "No calibration dataset is large enough to claim a population-level probability."
+  ],
+  "pitch_safe_claim": "Maya is a supervised, evidence-based pattern-mapping prototype that narrows plausible paths and explains constraints; it is not a guaranteed future predictor."
+}

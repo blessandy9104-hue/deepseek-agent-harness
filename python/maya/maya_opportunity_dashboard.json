@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-08-16T08:12:36.721529+00:00",
+  "status": "review_only",
+  "owner": "Andy",
+  "priority_order": [
+    {
+      "rank": 1,
+      "area": "planning_and_review_support",
+      "reason": "approved pattern plus task evidence"
+    },
+    {
+      "rank": 2,
+      "area": "staged_self_evolution",
+      "reason": "approved workflow pattern with rollback and verification"
+    },
+    {
+      "rank": 3,
+      "area": "income_opportunity_mapping",
+      "reason": "approved interest and active report generator"
+    },
+    {
+      "rank": 4,
+      "area": "learning_and_research",
+      "reason": "approved learning tracks and public research evidence"
+    }
+  ],
+  "approved_patterns": [
+    {
+      "key": "staged_supervised_workflow",
+      "proposal": "Andy tends to prefer staged changes: isolated testing, evidence review, explicit approval, activation, verification, and rollback availability.",
+      "confidence": 0.7
+    },
+    {
+      "key": "andy_planning_and_review_orientation",
+      "proposal": "Andy may benefit from proactive planning, deadline reminders, weekly reviews, and project-update support.",
+      "confidence": "moderate"
+    },
+    {
+      "key": "andy_staged_change_and_verification",
+      "proposal": "Andy may benefit from changes being researched, tested, explained, approved, activated with rollback, and verified.",
+      "confidence": "moderate"
+    },
+    {
+      "key": "andy_learning_opportunity_tracks",
+      "proposal": "Maya could offer optional research and learning summaries around philosophy, theoretical physics, spirituality, and computer-related topics when Andy requests them.",
+      "confidence": "low_to_moderate"
+    }
+  ],
+  "pending_evidence_count": 24,
+  "public_research_evidence_count": 7,
+  "income_opportunity_tracks": [
+    "skill_services",
+    "digital_products",
+    "automation",
+    "career_growth",
+    "business_research",
+    "investing_education"
+  ],
+  "next_reversible_actions": [
+    "review one pending evidence cluster",
+    "choose one small income-opportunity experiment",
+    "run one approved public research lookup",
+    "generate one supervised improvement candidate"
+  ],
+  "controls": {
+    "review_only": true,
+    "automatic_activation": false,
+    "automatic_memory_update": false,
+    "background_research": "approval_required",
+    "financial_action": "explicit_confirmation_required",
+    "private_data_export": false
+  }
+}

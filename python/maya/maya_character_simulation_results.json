@@ -1,0 +1,193 @@
+{
+  "scenario": "one shared transition program, three contrasting synthetic characters",
+  "character_count": 3,
+  "character_conditioned_map_distinctness": 1.0,
+  "top_option_match_rate": 1.0,
+  "cross_character_leakage_count": 0,
+  "all_review_only": true,
+  "rows": [
+    {
+      "character": "character_a_explorer",
+      "shared_event_count": 4,
+      "character_event_count": 3,
+      "patterns": [
+        {
+          "name": "human-decision-under-uncertainty",
+          "evidence": "people are assessing incomplete signals before choosing a response",
+          "confidence": "tentative"
+        },
+        {
+          "name": "objective-at-risk",
+          "evidence": "Choose a personally fitting, reversible direction within the shared program.",
+          "confidence": "tentative"
+        },
+        {
+          "name": "conflict-and-constraint",
+          "evidence": "goals or actions are bounded by competing priorities or limited resources",
+          "confidence": "tentative"
+        },
+        {
+          "name": "small-experiment",
+          "evidence": "a bounded experiment is available before a larger commitment",
+          "confidence": "moderate"
+        },
+        {
+          "name": "alternative-paths",
+          "evidence": "more than one path or plan is being considered",
+          "confidence": "tentative"
+        },
+        {
+          "name": "resource-allocation-tradeoff",
+          "evidence": "resources must be divided between current operations and a new direction",
+          "confidence": "tentative"
+        }
+      ],
+      "ranked_options": [
+        {
+          "option": "run a small software pilot",
+          "relative_fit": 6,
+          "evidence_group": "pilot"
+        },
+        {
+          "option": "wait and gather more evidence",
+          "relative_fit": 1,
+          "evidence_group": "wait"
+        },
+        {
+          "option": "take a structured course",
+          "relative_fit": 0,
+          "evidence_group": "course"
+        }
+      ],
+      "top_option_matches_held_out": true,
+      "held_out_outcome": "They choose a small software pilot with a time and budget limit.",
+      "cross_character_private_leakage": [],
+      "memory_update": "not_performed",
+      "external_action": "not_performed"
+    },
+    {
+      "character": "character_b_stability",
+      "shared_event_count": 4,
+      "character_event_count": 3,
+      "patterns": [
+        {
+          "name": "objective-at-risk",
+          "evidence": "Choose a personally fitting, reversible direction within the shared program.",
+          "confidence": "tentative"
+        },
+        {
+          "name": "conflict-and-constraint",
+          "evidence": "goals or actions are bounded by competing priorities or limited resources",
+          "confidence": "tentative"
+        },
+        {
+          "name": "decision-point",
+          "evidence": "the event stream contains an explicit choice or commitment point",
+          "confidence": "tentative"
+        },
+        {
+          "name": "small-experiment",
+          "evidence": "a bounded experiment is available before a larger commitment",
+          "confidence": "moderate"
+        },
+        {
+          "name": "alternative-paths",
+          "evidence": "more than one path or plan is being considered",
+          "confidence": "tentative"
+        },
+        {
+          "name": "resource-allocation-tradeoff",
+          "evidence": "resources must be divided between current operations and a new direction",
+          "confidence": "tentative"
+        },
+        {
+          "name": "resource-preservation",
+          "evidence": "a scarce resource must be protected while the situation unfolds",
+          "confidence": "moderate"
+        }
+      ],
+      "ranked_options": [
+        {
+          "option": "take a structured course",
+          "relative_fit": 5,
+          "evidence_group": "course"
+        },
+        {
+          "option": "wait and gather more evidence",
+          "relative_fit": 0,
+          "evidence_group": "wait"
+        },
+        {
+          "option": "run a small software pilot",
+          "relative_fit": 0,
+          "evidence_group": "pilot"
+        }
+      ],
+      "top_option_matches_held_out": true,
+      "held_out_outcome": "They choose a structured course before making a larger career change.",
+      "cross_character_private_leakage": [],
+      "memory_update": "not_performed",
+      "external_action": "not_performed"
+    },
+    {
+      "character": "character_c_creator",
+      "shared_event_count": 4,
+      "character_event_count": 3,
+      "patterns": [
+        {
+          "name": "objective-at-risk",
+          "evidence": "Choose a personally fitting, reversible direction within the shared program.",
+          "confidence": "tentative"
+        },
+        {
+          "name": "conflict-and-constraint",
+          "evidence": "goals or actions are bounded by competing priorities or limited resources",
+          "confidence": "tentative"
+        },
+        {
+          "name": "small-experiment",
+          "evidence": "a bounded experiment is available before a larger commitment",
+          "confidence": "moderate"
+        },
+        {
+          "name": "alternative-paths",
+          "evidence": "more than one path or plan is being considered",
+          "confidence": "tentative"
+        },
+        {
+          "name": "resource-allocation-tradeoff",
+          "evidence": "resources must be divided between current operations and a new direction",
+          "confidence": "tentative"
+        },
+        {
+          "name": "resource-preservation",
+          "evidence": "a scarce resource must be protected while the situation unfolds",
+          "confidence": "moderate"
+        }
+      ],
+      "ranked_options": [
+        {
+          "option": "create a portfolio prototype",
+          "relative_fit": 6,
+          "evidence_group": "portfolio"
+        },
+        {
+          "option": "take a structured course",
+          "relative_fit": 0,
+          "evidence_group": "course"
+        },
+        {
+          "option": "run a small software pilot",
+          "relative_fit": 0,
+          "evidence_group": "pilot"
+        }
+      ],
+      "top_option_matches_held_out": true,
+      "held_out_outcome": "They create a small portfolio prototype combining design and technology.",
+      "cross_character_private_leakage": [],
+      "memory_update": "not_performed",
+      "external_action": "not_performed"
+    }
+  ],
+  "interpretation": "The top-option match is a holdout heuristic for this synthetic fixture, not a calibrated prediction probability. Differentiation means Maya used each character's permitted goals and constraints rather than treating all users identically."
+}

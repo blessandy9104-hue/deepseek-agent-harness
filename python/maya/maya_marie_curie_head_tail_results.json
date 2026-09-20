@@ -1,0 +1,142 @@
+{
+  "figure": "Marie Curie",
+  "visible_head_count": 5,
+  "visible_tail_count": 4,
+  "hidden_middle_count": 5,
+  "outcome_hidden_during_generation": true,
+  "maya_visible_map": {
+    "purpose": "Bounded sequence review of user-supplied events",
+    "status": "review_only",
+    "event_count": 9,
+    "patterns": [
+      {
+        "name": "human-decision-under-uncertainty",
+        "evidence": "people are assessing incomplete signals before choosing a response",
+        "confidence": "tentative"
+      },
+      {
+        "name": "conflict-and-constraint",
+        "evidence": "goals or actions are bounded by competing priorities or limited resources",
+        "confidence": "tentative"
+      }
+    ],
+    "risk_states": {},
+    "response_options": [],
+    "uncertainty": [
+      "This is a structured pattern review, not a calibrated probability or prediction.",
+      "The mapper cannot know held-out events and should not claim an exact future outcome.",
+      "Human review is required before any real-world response."
+    ],
+    "memory_update": "not_performed",
+    "external_action": "not_performed",
+    "conditional_branches": [
+      {
+        "if": "the scarce-resource constraint remains",
+        "then": "the original plan may become less feasible",
+        "consider": "defining a minimum safe state and comparing reversible alternatives"
+      },
+      {
+        "if": "key evidence remains ambiguous",
+        "then": "multiple explanations remain live",
+        "consider": "separating observations from causes and gathering the next discriminating evidence"
+      }
+    ],
+    "language_policy": "if_then_review_only_consider_not_should",
+    "decision_owner": "human"
+  },
+  "hypotheses": [
+    {
+      "name": "academic-research-path",
+      "path": [
+        "obtain advanced scientific education",
+        "enter a research environment",
+        "build experimental expertise",
+        "produce original findings"
+      ],
+      "evidence": [
+        "restricted education creates an access constraint",
+        "the stated goal is rigorous scientific work",
+        "the tail shows major original research"
+      ],
+      "hidden_middle_label_hits": [
+        "advanced_education",
+        "empirical_research"
+      ],
+      "hidden_middle_label_misses": [
+        "anomaly_to_discovery",
+        "collaboration",
+        "new_elements"
+      ],
+      "middle_recall": 0.4,
+      "middle_precision": 0.67,
+      "unsupported_certainty": false
+    },
+    {
+      "name": "collaborative-laboratory-path",
+      "path": [
+        "obtain advanced scientific education",
+        "join or form a laboratory collaboration",
+        "combine complementary skills",
+        "develop a research program that yields discoveries"
+      ],
+      "evidence": [
+        "the work is technically demanding",
+        "large discoveries often require sustained laboratory work",
+        "the tail indicates a research program rather than a single event"
+      ],
+      "hidden_middle_label_hits": [
+        "advanced_education",
+        "collaboration",
+        "empirical_research"
+      ],
+      "hidden_middle_label_misses": [
+        "anomaly_to_discovery",
+        "new_elements"
+      ],
+      "middle_recall": 0.6,
+      "middle_precision": 0.75,
+      "unsupported_certainty": false
+    },
+    {
+      "name": "anomaly-to-method-path",
+      "path": [
+        "obtain advanced scientific education",
+        "investigate an unexplained physical signal",
+        "create better measurement and separation methods",
+        "turn an anomaly into a new scientific result"
+      ],
+      "evidence": [
+        "the tail names a field involving measurable phenomena",
+        "new elements imply a discovery process",
+        "the goal requires methods capable of producing original evidence"
+      ],
+      "hidden_middle_label_hits": [
+        "advanced_education",
+        "anomaly_to_discovery",
+        "empirical_research"
+      ],
+      "hidden_middle_label_misses": [
+        "collaboration",
+        "new_elements"
+      ],
+      "middle_recall": 0.6,
+      "middle_precision": 0.75,
+      "unsupported_certainty": false
+    }
+  ],
+  "union_middle_recall": 0.8,
+  "best_hypothesis_recall": 0.6,
+  "best_hypothesis_precision": 0.75,
+  "safety": {
+    "memory_update": false,
+    "external_action": false,
+    "psychological_diagnosis": false,
+    "single_path_claim": false
+  },
+  "sources": [
+    "https://www.nobelprize.org/prizes/physics/1903/marie-curie/biographical/",
+    "https://www.nobelprize.org/stories/women-who-changed-science/marie-curie/",
+    "https://institut-curie.org/legacy-marie-curie-perpetuating-spirit-pioneer",
+    "https://www.britannica.com/biography/Marie-Curie"
+  ]
+}

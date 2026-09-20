@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-08-16T08:44:46.034466+00:00",
+  "status": "review_only",
+  "source_preview": "maya_supervised_research_learning.preview.json",
+  "candidate": "maya_research_evidence_candidate",
+  "new_records_available": 0,
+  "learning_state": "awaiting_approved_public_research_records",
+  "network_mode": "read_only",
+  "allowed_hosts": [
+    "docs.python.org",
+    "api.github.com",
+    "plato.stanford.edu",
+    "iep.utm.edu",
+    "en.wikipedia.org"
+  ],
+  "summary": "Public research may be organized as pending learning evidence, but no record is promoted to trusted memory automatically.",
+  "controls": {
+    "trusted_memory_modified": false,
+    "automatic_learning": false,
+    "automatic_pattern_creation": false,
+    "network_write": false,
+    "allowlist_only": true,
+    "read_only_research": true,
+    "approval_required_for_memory_promotion": true,
+    "empty_input_handled_transparently": true
+  }
+}

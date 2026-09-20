@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "mode": "read_only",
+  "search_hosts": [
+    "www.bing.com"
+  ],
+  "allowed_hosts": [
+    "docs.python.org",
+    "api.github.com",
+    "plato.stanford.edu",
+    "iep.utm.edu",
+    "en.wikipedia.org"
+  ],
+  "timeout_seconds": 10,
+  "max_bytes": 200000,
+  "require_confirmation_for": [
+    "post",
+    "login",
+    "purchase",
+    "send",
+    "write"
+  ]
+}

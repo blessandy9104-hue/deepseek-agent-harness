@@ -1,0 +1,136 @@
+﻿{
+  "cases": 50,
+  "raw_correct": 25,
+  "adjusted_correct": 34,
+  "raw_accuracy": 0.5,
+  "adjusted_accuracy": 0.68,
+  "adjusted_misclassifications": [
+    {
+      "sentence": "Could you help me?",
+      "expected": "polite_request_or_capability",
+      "raw": "maya_capability_or_action",
+      "adjusted": "maya_capability_or_action",
+      "markers": []
+    },
+    {
+      "sentence": "Can you tell me why philosophy matters?",
+      "expected": "reason_or_cause",
+      "raw": "maya_capability_or_action",
+      "adjusted": "maya_capability_or_action",
+      "markers": []
+    },
+    {
+      "sentence": "What is philosophy, and why does it matter?",
+      "expected": "reason_or_cause",
+      "raw": "definition_or_information",
+      "adjusted": "definition_or_information",
+      "markers": []
+    },
+    {
+      "sentence": "Although I asked what Maya can do, compare local and cloud.",
+      "expected": "choice_or_comparison",
+      "raw": "statement_or_general_request",
+      "adjusted": "definition_or_information",
+      "markers": [
+        "although"
+      ]
+    },
+    {
+      "sentence": "Can Maya self-evolve, not rewrite permissions?",
+      "expected": "definition_or_information",
+      "raw": "maya_capability_or_action",
+      "adjusted": "maya_capability_or_action",
+      "markers": [
+        "not"
+      ]
+    },
+    {
+      "sentence": "Is it a fact, or should I ask why?",
+      "expected": "reason_or_cause",
+      "raw": "fact_check_or_definition",
+      "adjusted": "fact_check_or_definition",
+      "markers": []
+    },
+    {
+      "sentence": "Who is this about, and where are they?",
+      "expected": "location",
+      "raw": "person_or_entity",
+      "adjusted": "person_or_entity",
+      "markers": []
+    },
+    {
+      "sentence": "When did it happen, and how did it work?",
+      "expected": "process_or_explanation",
+      "raw": "time_or_history",
+      "adjusted": "time_or_history",
+      "markers": []
+    },
+    {
+      "sentence": "Can you explain, but not execute?",
+      "expected": "request_for_explanation",
+      "raw": "maya_capability_or_action",
+      "adjusted": "maya_capability_or_action",
+      "markers": [
+        "but",
+        "not"
+      ]
+    },
+    {
+      "sentence": "Could you tell me how, instead of whether?",
+      "expected": "process_or_explanation",
+      "raw": "maya_capability_or_action",
+      "adjusted": "maya_capability_or_action",
+      "markers": [
+        "instead"
+      ]
+    },
+    {
+      "sentence": "Do you know why this happens?",
+      "expected": "reason_or_cause",
+      "raw": "maya_capability_or_action",
+      "adjusted": "maya_capability_or_action",
+      "markers": []
+    },
+    {
+      "sentence": "Does Maya learn, or only store patterns?",
+      "expected": "definition_or_information",
+      "raw": "maya_capability_or_action",
+      "adjusted": "maya_capability_or_action",
+      "markers": []
+    },
+    {
+      "sentence": "Rather than answer, compare choices.",
+      "expected": "choice_or_comparison",
+      "raw": "statement_or_general_request",
+      "adjusted": "statement_or_general_request",
+      "markers": [
+        "rather"
+      ]
+    },
+    {
+      "sentence": "Can you tell me what the cue means?",
+      "expected": "definition_or_information",
+      "raw": "maya_capability_or_action",
+      "adjusted": "maya_capability_or_action",
+      "markers": []
+    },
+    {
+      "sentence": "Tell me what to compare, not which to choose.",
+      "expected": "definition_or_information",
+      "raw": "request_for_explanation",
+      "adjusted": "choice_or_comparison",
+      "markers": [
+        "not"
+      ]
+    },
+    {
+      "sentence": "When, rather than why, did it start?",
+      "expected": "time_or_history",
+      "raw": "time_or_history",
+      "adjusted": "reason_or_cause",
+      "markers": [
+        "rather"
+      ]
+    }
+  ]
+}

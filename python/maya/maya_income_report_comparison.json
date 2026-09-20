@@ -1,0 +1,196 @@
+{
+  "generated_at": "2026-08-16T08:38:47.935955+00:00",
+  "status": "review_only",
+  "source": "maya_income_opportunity_report.generated.json",
+  "purpose": "Compare opportunity tracks using explicit dimensions without inventing financial estimates.",
+  "opportunity_count": 5,
+  "comparisons": [
+    {
+      "rank": 1,
+      "track": "skill_services",
+      "question": "What service could Andy offer using existing skills?",
+      "first_experiment": "define one small service and test demand before spending money",
+      "time_cost_skills_downside_uncertainty_values": {
+        "time": {
+          "value": null,
+          "status": "not_assessed"
+        },
+        "cost": {
+          "value": null,
+          "status": "not_assessed"
+        },
+        "skills": {
+          "value": null,
+          "status": "not_assessed"
+        },
+        "downside": {
+          "value": null,
+          "status": "not_assessed"
+        },
+        "uncertainty": {
+          "value": null,
+          "status": "not_assessed"
+        },
+        "values_tradeoffs": {
+          "value": null,
+          "status": "requires_Andy_review"
+        }
+      },
+      "financial_action": "none",
+      "income_guarantee": false
+    },
+    {
+      "rank": 2,
+      "track": "digital_products",
+      "question": "What reusable product could Andy create?",
+      "first_experiment": "make a small prototype and seek feedback before building further",
+      "time_cost_skills_downside_uncertainty_values": {
+        "time": {
+          "value": null,
+          "status": "not_assessed"
+        },
+        "cost": {
+          "value": null,
+          "status": "not_assessed"
+        },
+        "skills": {
+          "value": null,
+          "status": "not_assessed"
+        },
+        "downside": {
+          "value": null,
+          "status": "not_assessed"
+        },
+        "uncertainty": {
+          "value": null,
+          "status": "not_assessed"
+        },
+        "values_tradeoffs": {
+          "value": null,
+          "status": "requires_Andy_review"
+        }
+      },
+      "financial_action": "none",
+      "income_guarantee": false
+    },
+    {
+      "rank": 3,
+      "track": "automation",
+      "question": "What repetitive problem could be turned into a useful tool?",
+      "first_experiment": "identify one real problem and test a minimal workflow",
+      "time_cost_skills_downside_uncertainty_values": {
+        "time": {
+          "value": null,
+          "status": "not_assessed"
+        },
+        "cost": {
+          "value": null,
+          "status": "not_assessed"
+        },
+        "skills": {
+          "value": null,
+          "status": "not_assessed"
+        },
+        "downside": {
+          "value": null,
+          "status": "not_assessed"
+        },
+        "uncertainty": {
+          "value": null,
+          "status": "not_assessed"
+        },
+        "values_tradeoffs": {
+          "value": null,
+          "status": "requires_Andy_review"
+        }
+      },
+      "financial_action": "none",
+      "income_guarantee": false
+    },
+    {
+      "rank": 4,
+      "track": "career_growth",
+      "question": "Which skill or role could improve earning potential?",
+      "first_experiment": "compare requirements, time, cost, and evidence of demand",
+      "time_cost_skills_downside_uncertainty_values": {
+        "time": {
+          "value": null,
+          "status": "not_assessed"
+        },
+        "cost": {
+          "value": null,
+          "status": "not_assessed"
+        },
+        "skills": {
+          "value": null,
+          "status": "not_assessed"
+        },
+        "downside": {
+          "value": null,
+          "status": "not_assessed"
+        },
+        "uncertainty": {
+          "value": null,
+          "status": "not_assessed"
+        },
+        "values_tradeoffs": {
+          "value": null,
+          "status": "requires_Andy_review"
+        }
+      },
+      "financial_action": "none",
+      "income_guarantee": false
+    },
+    {
+      "rank": 5,
+      "track": "business_research",
+      "question": "Which public market gaps or business models merit research?",
+      "first_experiment": "compare multiple sources and write a risk-aware opportunity brief",
+      "time_cost_skills_downside_uncertainty_values": {
+        "time": {
+          "value": null,
+          "status": "not_assessed"
+        },
+        "cost": {
+          "value": null,
+          "status": "not_assessed"
+        },
+        "skills": {
+          "value": null,
+          "status": "not_assessed"
+        },
+        "downside": {
+          "value": null,
+          "status": "not_assessed"
+        },
+        "uncertainty": {
+          "value": null,
+          "status": "not_assessed"
+        },
+        "values_tradeoffs": {
+          "value": null,
+          "status": "requires_Andy_review"
+        }
+      },
+      "financial_action": "none",
+      "income_guarantee": false
+    }
+  ],
+  "next_review_questions": [
+    "What time commitment would Andy accept?",
+    "What upfront or recurring cost is acceptable?",
+    "Which skills should be built or used?",
+    "What downside is unacceptable?",
+    "How much uncertainty is acceptable?",
+    "Which values tradeoffs require Andy’s judgment?"
+  ],
+  "final_note": "This is research and planning, not a guarantee of income. No trade, purchase, investment, or other financial action is performed.",
+  "controls": {
+    "source_modified": false,
+    "automatic_financial_action": false,
+    "income_guarantee": false,
+    "invented_estimates": false,
+    "network_access": false,
+    "approval_required_for_follow_up": true
+  }
+}

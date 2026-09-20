@@ -1,0 +1,249 @@
+{
+  "case": "Apollo 13",
+  "direction": "ending_to_root",
+  "root_facts_hidden_during_reverse_mapping": true,
+  "full": {
+    "reverse_map": {
+      "status": "reverse_review_only",
+      "direction": "ending_to_root",
+      "inferences": [
+        {
+          "name": "contingency-or-backup-required",
+          "evidence": "the ending required a substitute path or system",
+          "confidence": "moderate"
+        },
+        {
+          "name": "resource-constraint",
+          "evidence": "the ending depended on managing a scarce resource",
+          "confidence": "moderate"
+        },
+        {
+          "name": "objective-reframing",
+          "evidence": "the original goal was replaced by a safer goal",
+          "confidence": "moderate"
+        },
+        {
+          "name": "operational-improvisation",
+          "evidence": "the outcome required new or improvised procedures",
+          "confidence": "moderate"
+        },
+        {
+          "name": "initiating-system-fault",
+          "evidence": "the ending implies an earlier system failure",
+          "confidence": "tentative"
+        }
+      ],
+      "conditional_note": "These are possible prerequisites, not proven causes. Do not assign blame from reverse reconstruction.",
+      "memory_update": "not_performed",
+      "external_action": "not_performed"
+    },
+    "score": {
+      "hits": [
+        "contingency-or-backup-required",
+        "initiating-system-fault",
+        "objective-reframing",
+        "operational-improvisation",
+        "resource-constraint"
+      ],
+      "misses": [],
+      "coverage": 1.0,
+      "false_positive_patterns": []
+    },
+    "root_facts_held_out": [
+      "The oxygen tank had been damaged during an earlier removal.",
+      "Ground testing showed that oxygen tank number 2 did not detank normally.",
+      "An underrated component was not replaced during a design modification.",
+      "An electrical heater was used for eight hours to boil off remaining oxygen.",
+      "The later tank rupture caused oxygen loss, power loss, and fuel-cell failure."
+    ]
+  },
+  "individuals": [
+    {
+      "id": "jack_swigert",
+      "reverse_map": {
+        "status": "reverse_review_only",
+        "direction": "ending_to_root",
+        "inferences": [
+          {
+            "name": "resource-constraint",
+            "evidence": "the ending depended on managing a scarce resource",
+            "confidence": "moderate"
+          },
+          {
+            "name": "objective-reframing",
+            "evidence": "the original goal was replaced by a safer goal",
+            "confidence": "moderate"
+          },
+          {
+            "name": "initiating-system-fault",
+            "evidence": "the ending implies an earlier system failure",
+            "confidence": "tentative"
+          }
+        ],
+        "conditional_note": "These are possible prerequisites, not proven causes. Do not assign blame from reverse reconstruction.",
+        "memory_update": "not_performed",
+        "external_action": "not_performed"
+      },
+      "score": {
+        "hits": [
+          "initiating-system-fault"
+        ],
+        "misses": [
+          "contingency-or-backup-required"
+        ],
+        "coverage": 0.5,
+        "false_positive_patterns": [
+          "objective-reframing",
+          "resource-constraint"
+        ]
+      },
+      "root_facts_held_out": [
+        "He was performing the cryogenic tank stirring procedure when the failure began.",
+        "He reported the problem to Houston."
+      ]
+    },
+    {
+      "id": "james_lovell",
+      "reverse_map": {
+        "status": "reverse_review_only",
+        "direction": "ending_to_root",
+        "inferences": [
+          {
+            "name": "contingency-or-backup-required",
+            "evidence": "the ending required a substitute path or system",
+            "confidence": "moderate"
+          },
+          {
+            "name": "objective-reframing",
+            "evidence": "the original goal was replaced by a safer goal",
+            "confidence": "moderate"
+          },
+          {
+            "name": "initiating-system-fault",
+            "evidence": "the ending implies an earlier system failure",
+            "confidence": "tentative"
+          }
+        ],
+        "conditional_note": "These are possible prerequisites, not proven causes. Do not assign blame from reverse reconstruction.",
+        "memory_update": "not_performed",
+        "external_action": "not_performed"
+      },
+      "score": {
+        "hits": [
+          "contingency-or-backup-required",
+          "objective-reframing"
+        ],
+        "misses": [],
+        "coverage": 1.0,
+        "false_positive_patterns": [
+          "initiating-system-fault"
+        ]
+      },
+      "root_facts_held_out": [
+        "He reported the main-bus undervolt and observed oxygen venting."
+      ]
+    },
+    {
+      "id": "fred_haise",
+      "reverse_map": {
+        "status": "reverse_review_only",
+        "direction": "ending_to_root",
+        "inferences": [
+          {
+            "name": "contingency-or-backup-required",
+            "evidence": "the ending required a substitute path or system",
+            "confidence": "moderate"
+          },
+          {
+            "name": "resource-constraint",
+            "evidence": "the ending depended on managing a scarce resource",
+            "confidence": "moderate"
+          },
+          {
+            "name": "objective-reframing",
+            "evidence": "the original goal was replaced by a safer goal",
+            "confidence": "moderate"
+          },
+          {
+            "name": "initiating-system-fault",
+            "evidence": "the ending implies an earlier system failure",
+            "confidence": "tentative"
+          }
+        ],
+        "conditional_note": "These are possible prerequisites, not proven causes. Do not assign blame from reverse reconstruction.",
+        "memory_update": "not_performed",
+        "external_action": "not_performed"
+      },
+      "score": {
+        "hits": [
+          "contingency-or-backup-required",
+          "resource-constraint"
+        ],
+        "misses": [],
+        "coverage": 1.0,
+        "false_positive_patterns": [
+          "initiating-system-fault",
+          "objective-reframing"
+        ]
+      },
+      "root_facts_held_out": [
+        "He recognized electrical-system loss and helped move the crew into the lunar module."
+      ]
+    },
+    {
+      "id": "mission_control",
+      "reverse_map": {
+        "status": "reverse_review_only",
+        "direction": "ending_to_root",
+        "inferences": [
+          {
+            "name": "contingency-or-backup-required",
+            "evidence": "the ending required a substitute path or system",
+            "confidence": "moderate"
+          },
+          {
+            "name": "objective-reframing",
+            "evidence": "the original goal was replaced by a safer goal",
+            "confidence": "moderate"
+          },
+          {
+            "name": "operational-improvisation",
+            "evidence": "the outcome required new or improvised procedures",
+            "confidence": "moderate"
+          }
+        ],
+        "conditional_note": "These are possible prerequisites, not proven causes. Do not assign blame from reverse reconstruction.",
+        "memory_update": "not_performed",
+        "external_action": "not_performed"
+      },
+      "score": {
+        "hits": [
+          "contingency-or-backup-required",
+          "operational-improvisation"
+        ],
+        "misses": [
+          "resource-constraint"
+        ],
+        "coverage": 0.67,
+        "false_positive_patterns": [
+          "objective-reframing"
+        ]
+      },
+      "root_facts_held_out": [
+        "Controllers faced incomplete telemetry and had to create and test procedures under time pressure."
+      ]
+    }
+  ],
+  "full_reverse_coverage": 1.0,
+  "individual_average_reverse_coverage": 0.79,
+  "safety": {
+    "memory_update": false,
+    "external_action": false,
+    "permission_change": false,
+    "blame_assignment": false
+  },
+  "source_urls": [
+    "https://www.nasa.gov/missions/apollo/apollo-13-mission-details/",
+    "https://www.nasa.gov/history/detailed-chronology-of-events-surrounding-the-apollo-13-accident/"
+  ]
+}

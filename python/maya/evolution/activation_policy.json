@@ -1,0 +1,33 @@
+{
+  "enabled": false,
+  "mode": "approval_only",
+  "default_requires_approval": true,
+  "max_retry_attempts": 5,
+  "auto_activation": {
+    "allowed": false,
+    "requires_all_tests": true,
+    "requires_backup": true,
+    "requires_rollback_plan": true,
+    "requires_audit_log": true,
+    "probation_runs": 3
+  },
+  "low_risk_categories": [
+    "candidate_reports",
+    "isolated_tests",
+    "documentation_only"
+  ],
+  "approval_required_categories": [
+    "maya_chat.py",
+    "maya_rules.py",
+    "maya_context.py",
+    "memory_changes",
+    "network_access",
+    "browser_access",
+    "credentials",
+    "security_boundaries",
+    "new_capabilities",
+    "architecture_changes"
+  ],
+  "rollback_required": true,
+  "audit_log": "evolution/activation_log.jsonl"
+}

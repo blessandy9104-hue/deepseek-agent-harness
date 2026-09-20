@@ -1,0 +1,19 @@
+{
+  "proposal_id": "3d-20260814T141835Z",
+  "created_at": "2026-08-14T14:18:35.268725+00:00",
+  "requested_by": "Andy",
+  "requested_result": "Create a blue cube and place it at the center of the scene",
+  "affected_objects": [
+    "one cube"
+  ],
+  "proposed_operation": "Prepare a simulation-only Autodesk Maya scene plan for: Create a blue cube and place it at the center of the scene",
+  "execution_mode": "simulation_only",
+  "generated_script": null,
+  "risk": "low for simulation; no live scene changes are permitted",
+  "approval_status": "approved_for_simulation",
+  "rollback_plan": "No live change has occurred. Delete this proposal to discard it.",
+  "live_bridge_enabled": false,
+  "policy_file": "/home/andy/projects/assistant/knowledge/cooperation_policy.json",
+  "reviewed_at": "2026-08-14T14:20:30.687861+00:00",
+  "reviewed_by": "Andy"
+}

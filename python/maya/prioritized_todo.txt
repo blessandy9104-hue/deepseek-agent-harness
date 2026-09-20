@@ -1,0 +1,130 @@
+﻿[SAFE LOCAL] Historical pattern-mapping holdout simulation (8)
+  - Select a well-documented historical story and define the information cutoff.
+  - Gather primary or authoritative sources for the pre-cutoff timeline and known outcome.
+  - Build a blinded simulation fixture containing only pre-cutoff information.
+  - Run Maya's pattern mapper without exposing the outcome.
+[SAFE LOCAL] Multi-scenario historical holdout benchmark (8)
+  - Define the scenario suite and common evaluation schema.
+  - Source authoritative timelines and record each source URL.
+  - Build blinded pre-outcome fixtures with held-out outcomes.
+  - Run the baseline mapper across all scenarios and collect misses.
+[SAFE LOCAL] Mixed individual-and-circumstance benchmark expansion (5)
+  - Add individual-level cases with explicit consent-safe, non-diagnostic evaluation boundaries.
+  - Add circumstance-level cases covering failures, rescues, pivots, and resource crises.
+  - Keep personal scenarios synthetic or user-approved; do not use private third-party data.
+  - Score observed-pattern detection, causal sequencing, uncertainty calibration, alternative paths, and safe next-step framing.
+[APPROVAL / DEFER] Individual-within-circumstance and multi-user collision benchmark (7)
+  - Define public, shared, private, and consented data boundaries.
+  - Add synthetic scenarios where users have colliding goals, resources, or interests.
+  - Test whether Maya separates private memories from shared circumstance facts.
+  - Test competing-benefit decisions without silently prioritizing one user.
+[SAFE LOCAL] Same-scenario, different-character benchmark (6)
+  - Define one shared circumstance and multiple contrasting synthetic characters.
+  - Keep outcomes hidden and run each character independently.
+  - Measure whether maps differ when goals, constraints, and preferences differ.
+  - Compare mapped options with each character's held-out outcome.
+[SAFE LOCAL] Real multi-person historical conditional-prediction test (6)
+  - Select a documented event with identifiable individuals and a shared circumstance.
+  - Define a cutoff and hide all aftermath information from Maya.
+  - Generate individual and full-circumstance if-then maps.
+  - Compare mapped paths with documented subsequent events.
+[SAFE LOCAL] Reverse historical reconstruction benchmark (6)
+  - Define reverse abduction versus prediction and mark hindsight-sensitive fields.
+  - Build an ending-to-root Apollo 13 timeline from authoritative sources.
+  - Reconstruct full-circumstance and individual causal chains separately.
+  - Compare inferred causes, missed causes, and candidate mistakes with the documented record.
+[SAFE LOCAL] Historical figure head-and-tail simulation (6)
+  - Select a well-documented historical figure with a clear early-life head and end-goal or outcome tail.
+  - Source authoritative biography materials and define the hidden middle interval.
+  - Give Maya only the head, constraints, and tail; keep the documented middle withheld.
+  - Generate multiple plausible middle paths rather than one deterministic story.
+[APPROVAL / DEFER] Societal-force head-and-tail integration (6)
+  - Add multiple external-force scenarios around the same historical figure and end goal.
+  - Model competing actors or institutions with separate interests and privacy boundaries.
+  - Generate conditional middle paths for each societal scenario without leaking private character context.
+  - Compare how constraints alter path ranking, opportunity access, and likely tradeoffs.
+[SAFE LOCAL] Decision-pattern integration (6)
+  - Add individual decision tendencies, goals, constraints, and risk tolerance as explicit inputs.
+  - Add circumstance, society-at-the-time, rules, resources, and competing actors.
+  - Represent decisions as sequences with triggers, alternatives, reversibility, and consequences.
+  - Score desired-outcome fit without treating social conditions as destiny.
+[SAFE LOCAL] Neutral world-model layer (7)
+  - Define a bounded world snapshot instead of claiming a complete view of everything.
+  - Store source, timestamp, confidence, evidence type, and competing perspectives for each claim.
+  - Separate observable facts from forecasts, interpretations, and value judgments.
+  - Keep world context separate from each user's private character and approved memory.
+[SAFE LOCAL] Historical-head/current-state/conditional-tail world model (6)
+  - Define the historical head as sourced baseline conditions and recurring patterns.
+  - Define the current state as time-stamped signals, actors, resources, and constraints.
+  - Detect whether patterns are strengthening, weakening, repeating, breaking, or changing direction.
+  - Produce conditional tails rather than fixed future predictions.
+[SAFE LOCAL] Prediction-limit benchmark (5)
+  - Separate structural coverage from actual held-out outcome accuracy.
+  - Combine forward, reverse, individual, societal, collision, and head-tail results.
+  - Calculate false positives, misses, single-path versus multi-path recall, and safety failures.
+  - Identify which claims are safe for a pitch and which claims must be rejected.
+[APPROVAL / DEFER] Local integration and PC readiness (6)
+  - Identify which tested layers are safe to integrate into the desktop app.
+  - Keep heavy research and Ollama optional so deterministic fast paths remain local.
+  - Expose review-only conditional mapping and decision-pattern summaries through Maya's router.
+  - Preserve memory, security, mission-integrity, system-preservation, and emergency-stop walls.
+[APPROVAL / DEFER] Implement validated mapping layers (6)
+  - Integrate decision-pattern summaries into the local conversation workflow.
+  - Integrate conditional outcome ranking with explicit evidence and alternatives.
+  - Integrate societal and competing-interest context without sharing private memory.
+  - Keep prediction-limit reporting accessible locally.
+[SAFE LOCAL] Supervised self-improvement loop (7)
+  - Define allowed learning signals: confirmed outcomes, user corrections, dismissed suggestions, and verified evidence.
+  - Create an append-only outcome and error ledger with no automatic trusted-memory promotion.
+  - Detect recurring misses, false positives, calibration errors, and context-specific failures.
+  - Generate improvement proposals as data/rule changes rather than arbitrary code rewrites.
+[SAFE LOCAL] Concise relevant conversation mode (6)
+  - Inspect the local response prompt and continuity context assembly.
+  - Add a concise-answer policy that permits one-sentence answers when sufficient.
+  - Keep only topic-relevant context and preserve the current conversational thread.
+  - Defer optional detail until the user asks for more.
+[SAFE LOCAL] Fix Maya identity and concise research behavior (5)
+  - Add an explicit approved Andy identity context.
+  - Summarize public research instead of dumping raw source pages into the chat window.
+  - Keep ordinary user questions out of the automatic research path unless research is requested.
+  - Make Ollama timeout fallback answer the detected topic briefly when possible.
+[SAFE LOCAL] Fix Andy topic anchoring (5)
+  - Test multiple Andy identity questions through the actual local router.
+  - Prevent owner-identity questions from entering public web research.
+  - Prevent entity-name search results from merging unrelated topics.
+  - Ensure each answer has one topic and no unrelated paragraph spillover.
+[APPROVAL / DEFER] Keyboard controls and future voice startup (6)
+  - Define shortcuts that do not conflict with emergency stop or common OS shortcuts.
+  - Add a launcher script for wake-and-open and focus-or-open behavior.
+  - Bind in-app shortcuts for status, focus, help, and safe close.
+  - Document Windows-first controls and portable macOS/Linux equivalents.
+[APPROVAL / DEFER] Voice startup preparation and Andy-topic verification (5)
+  - Create a voice-startup preparation script with microphone listening disabled by default.
+  - Route future wake phrases through the existing fixed launcher only.
+  - Require explicit activation and confirmation before privileged actions.
+  - Test "Who is Andy?", "Tell me who Andy is", and "Who is Andy Warhol?" through Maya's local router.
+[APPROVAL / DEFER] Smallest useful Maya acceptance test (5)
+  - Launch the local desktop app and verify the core is awake.
+  - Test greeting, owner identity, concise answer, and one follow-up for continuity.
+  - Test one useful pattern or focus command with relevant output only.
+  - Verify no unwanted web research, memory write, or external action occurs.
+[SAFE LOCAL] Maya company direction (5)
+  - Define the public world-information service and its boundaries.
+  - Keep public world knowledge separate from private user identity and memory.
+  - Map historical patterns, current signals, actor incentives, and possible moves.
+  - Add source comparison and misinformation resilience without claiming perfect truth.
+[SAFE LOCAL] Credibility and misinformation resilience (7)
+  - Define claim-level credibility signals without permanent true/false labels.
+  - Track source history, corroboration, corrections, incentives, and manipulation patterns.
+  - Learn only from verified corrections and approved evaluation outcomes.
+  - Show evidence, disagreement, uncertainty, and reasons for each credibility assessment.
+[SAFE WITH REVIEW] Tighten Maya's initial seed from conversation patterns (7)
+  - Preserve durable signals: opportunity mapping, building by learning, autonomy, usefulness, and human control.
+  - Preserve relevant current constraints: PC-first operation, limited funds/devices, and need for practical next steps.
+  - Preserve communication preferences: concise, direct, context-aware, and no unrelated information.
+  - Preserve broad interests without treating them as permanent identity or guaranteed priorities.
+[APPROVAL / DEFER] Surface Maya's suggestions safely (5)
+  - Inspect whether proposals exist and why the desktop UI does not display them automatically.
+  - Define evidence thresholds for surfacing a suggestion without interrupting unnecessarily.
+  - Add a review-only pending-suggestions view and a concise notification path.
+  - Keep suggestions separate from automatic memory writes, code changes, and external actions.

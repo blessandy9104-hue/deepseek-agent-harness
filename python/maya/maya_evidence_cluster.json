@@ -1,0 +1,434 @@
+{
+  "generated_at": "2026-08-16T08:31:22.059957+00:00",
+  "status": "review_only",
+  "source": "andy_evidence_pending.jsonl",
+  "record_count": 24,
+  "invalid_or_nonobject_lines": 0,
+  "cluster_count": 23,
+  "clusters": [
+    {
+      "cluster_size": 2,
+      "category": "public_research",
+      "summary": "research reviewed: docs.python.org.",
+      "source": "knowledge/research_notes.jsonl",
+      "statuses": {
+        "pending_review": 2
+      },
+      "approval_values": {
+        "false": 2
+      },
+      "record_ids": [
+        "0dca39e5b8a711bd",
+        "abc388a8303e7a11"
+      ],
+      "review_state": "pending_review_only",
+      "pattern_proposed": false,
+      "memory_updated": false
+    },
+    {
+      "cluster_size": 1,
+      "category": "approved_decision",
+      "summary": "approved decision: decision-patterns then wake/sleep then live-chat integration then evidence sources",
+      "source": "andy_decisions.jsonl",
+      "statuses": {
+        "pending_review": 1
+      },
+      "approval_values": {
+        "false": 1
+      },
+      "record_ids": [
+        "c0c7a5dc6e63f26e"
+      ],
+      "review_state": "pending_review_only",
+      "pattern_proposed": false,
+      "memory_updated": false
+    },
+    {
+      "cluster_size": 1,
+      "category": "learning_activity",
+      "summary": "learning mode: sleeping; network research: disabled",
+      "source": "learning_status.json",
+      "statuses": {
+        "pending_review": 1
+      },
+      "approval_values": {
+        "false": 1
+      },
+      "record_ids": [
+        "2795237076fbd838"
+      ],
+      "review_state": "pending_review_only",
+      "pattern_proposed": false,
+      "memory_updated": false
+    },
+    {
+      "cluster_size": 1,
+      "category": "public_research",
+      "summary": "research reviewed: iep.utm.edu.",
+      "source": "knowledge/research_notes.jsonl",
+      "statuses": {
+        "pending_review": 1
+      },
+      "approval_values": {
+        "false": 1
+      },
+      "record_ids": [
+        "7769f09a3dbe170e"
+      ],
+      "review_state": "pending_review_only",
+      "pattern_proposed": false,
+      "memory_updated": false
+    },
+    {
+      "cluster_size": 1,
+      "category": "public_research",
+      "summary": "research reviewed: philosophy.",
+      "source": "knowledge/live_lookup_notes.jsonl",
+      "statuses": {
+        "pending_review": 1
+      },
+      "approval_values": {
+        "false": 1
+      },
+      "record_ids": [
+        "f04eca9c93718c49"
+      ],
+      "review_state": "pending_review_only",
+      "pattern_proposed": false,
+      "memory_updated": false
+    },
+    {
+      "cluster_size": 1,
+      "category": "public_research",
+      "summary": "research reviewed: plato.stanford.edu.",
+      "source": "knowledge/research_notes.jsonl",
+      "statuses": {
+        "pending_review": 1
+      },
+      "approval_values": {
+        "false": 1
+      },
+      "record_ids": [
+        "858a152766536fee"
+      ],
+      "review_state": "pending_review_only",
+      "pattern_proposed": false,
+      "memory_updated": false
+    },
+    {
+      "cluster_size": 1,
+      "category": "public_research",
+      "summary": "research reviewed: spirituality.",
+      "source": "knowledge/live_lookup_notes.jsonl",
+      "statuses": {
+        "pending_review": 1
+      },
+      "approval_values": {
+        "false": 1
+      },
+      "record_ids": [
+        "cf36631c6e596953"
+      ],
+      "review_state": "pending_review_only",
+      "pattern_proposed": false,
+      "memory_updated": false
+    },
+    {
+      "cluster_size": 1,
+      "category": "public_research",
+      "summary": "research reviewed: theoretical physics.",
+      "source": "knowledge/live_lookup_notes.jsonl",
+      "statuses": {
+        "pending_review": 1
+      },
+      "approval_values": {
+        "false": 1
+      },
+      "record_ids": [
+        "f6d6d83b686b75a1"
+      ],
+      "review_state": "pending_review_only",
+      "pattern_proposed": false,
+      "memory_updated": false
+    },
+    {
+      "cluster_size": 1,
+      "category": "task_activity",
+      "summary": "task recorded: buy bread",
+      "source": "tasks.json",
+      "statuses": {
+        "pending_review": 1
+      },
+      "approval_values": {
+        "false": 1
+      },
+      "record_ids": [
+        "25008bb16df8e0a7"
+      ],
+      "review_state": "pending_review_only",
+      "pattern_proposed": false,
+      "memory_updated": false
+    },
+    {
+      "cluster_size": 1,
+      "category": "task_activity",
+      "summary": "task recorded: buy eggs",
+      "source": "tasks.json",
+      "statuses": {
+        "pending_review": 1
+      },
+      "approval_values": {
+        "false": 1
+      },
+      "record_ids": [
+        "26a09e20879caf0a"
+      ],
+      "review_state": "pending_review_only",
+      "pattern_proposed": false,
+      "memory_updated": false
+    },
+    {
+      "cluster_size": 1,
+      "category": "task_activity",
+      "summary": "task recorded: buy milk",
+      "source": "tasks.json",
+      "statuses": {
+        "pending_review": 1
+      },
+      "approval_values": {
+        "false": 1
+      },
+      "record_ids": [
+        "bd5ef233622dd685"
+      ],
+      "review_state": "pending_review_only",
+      "pattern_proposed": false,
+      "memory_updated": false
+    },
+    {
+      "cluster_size": 1,
+      "category": "task_activity",
+      "summary": "task recorded: buy printer ink friday",
+      "source": "tasks.json",
+      "statuses": {
+        "pending_review": 1
+      },
+      "approval_values": {
+        "false": 1
+      },
+      "record_ids": [
+        "c5c5b9bfdfe8e25b"
+      ],
+      "review_state": "pending_review_only",
+      "pattern_proposed": false,
+      "memory_updated": false
+    },
+    {
+      "cluster_size": 1,
+      "category": "task_activity",
+      "summary": "task recorded: call alex tomorrow",
+      "source": "tasks.json",
+      "statuses": {
+        "pending_review": 1
+      },
+      "approval_values": {
+        "false": 1
+      },
+      "record_ids": [
+        "6b4e09bc54e4a1c0"
+      ],
+      "review_state": "pending_review_only",
+      "pattern_proposed": false,
+      "memory_updated": false
+    },
+    {
+      "cluster_size": 1,
+      "category": "task_activity",
+      "summary": "task recorded: plan the weekly review tomorrow",
+      "source": "tasks.json",
+      "statuses": {
+        "pending_review": 1
+      },
+      "approval_values": {
+        "false": 1
+      },
+      "record_ids": [
+        "e18d54079959974c"
+      ],
+      "review_state": "pending_review_only",
+      "pattern_proposed": false,
+      "memory_updated": false
+    },
+    {
+      "cluster_size": 1,
+      "category": "task_activity",
+      "summary": "task recorded: prepare the report tomorrow",
+      "source": "tasks.json",
+      "statuses": {
+        "pending_review": 1
+      },
+      "approval_values": {
+        "false": 1
+      },
+      "record_ids": [
+        "bf20df6006ea3b10"
+      ],
+      "review_state": "pending_review_only",
+      "pattern_proposed": false,
+      "memory_updated": false
+    },
+    {
+      "cluster_size": 1,
+      "category": "task_activity",
+      "summary": "task recorded: review and enable safe read-only network access later",
+      "source": "tasks.json",
+      "statuses": {
+        "pending_review": 1
+      },
+      "approval_values": {
+        "false": 1
+      },
+      "record_ids": [
+        "d923f41056dae449"
+      ],
+      "review_state": "pending_review_only",
+      "pattern_proposed": false,
+      "memory_updated": false
+    },
+    {
+      "cluster_size": 1,
+      "category": "task_activity",
+      "summary": "task recorded: review the budget friday",
+      "source": "tasks.json",
+      "statuses": {
+        "pending_review": 1
+      },
+      "approval_values": {
+        "false": 1
+      },
+      "record_ids": [
+        "952449618bfeda35"
+      ],
+      "review_state": "pending_review_only",
+      "pattern_proposed": false,
+      "memory_updated": false
+    },
+    {
+      "cluster_size": 1,
+      "category": "task_activity",
+      "summary": "task recorded: send the project update friday",
+      "source": "tasks.json",
+      "statuses": {
+        "pending_review": 1
+      },
+      "approval_values": {
+        "false": 1
+      },
+      "record_ids": [
+        "bb109b61c1f768e1"
+      ],
+      "review_state": "pending_review_only",
+      "pattern_proposed": false,
+      "memory_updated": false
+    },
+    {
+      "cluster_size": 1,
+      "category": "task_activity",
+      "summary": "task recorded: submit the report tomorrow",
+      "source": "tasks.json",
+      "statuses": {
+        "pending_review": 1
+      },
+      "approval_values": {
+        "false": 1
+      },
+      "record_ids": [
+        "121497128d5c2de7"
+      ],
+      "review_state": "pending_review_only",
+      "pattern_proposed": false,
+      "memory_updated": false
+    },
+    {
+      "cluster_size": 1,
+      "category": "task_activity",
+      "summary": "task recorded: test the assistant",
+      "source": "tasks.json",
+      "statuses": {
+        "pending_review": 1
+      },
+      "approval_values": {
+        "false": 1
+      },
+      "record_ids": [
+        "88a451ecd63f7fbd"
+      ],
+      "review_state": "pending_review_only",
+      "pattern_proposed": false,
+      "memory_updated": false
+    },
+    {
+      "cluster_size": 1,
+      "category": "task_activity",
+      "summary": "task recorded: walk the dog",
+      "source": "tasks.json",
+      "statuses": {
+        "pending_review": 1
+      },
+      "approval_values": {
+        "false": 1
+      },
+      "record_ids": [
+        "33a2569bd80484b7"
+      ],
+      "review_state": "pending_review_only",
+      "pattern_proposed": false,
+      "memory_updated": false
+    },
+    {
+      "cluster_size": 1,
+      "category": "task_activity",
+      "summary": "task recorded: weekly planning",
+      "source": "tasks.json",
+      "statuses": {
+        "pending_review": 1
+      },
+      "approval_values": {
+        "false": 1
+      },
+      "record_ids": [
+        "7f7f91f54fa9a3b1"
+      ],
+      "review_state": "pending_review_only",
+      "pattern_proposed": false,
+      "memory_updated": false
+    },
+    {
+      "cluster_size": 1,
+      "category": "task_activity",
+      "summary": "task recorded: weekly project review",
+      "source": "tasks.json",
+      "statuses": {
+        "pending_review": 1
+      },
+      "approval_values": {
+        "false": 1
+      },
+      "record_ids": [
+        "240f20239c6fb609"
+      ],
+      "review_state": "pending_review_only",
+      "pattern_proposed": false,
+      "memory_updated": false
+    }
+  ],
+  "interpretation": "Repeated evidence is grouped for Andy’s review only. No pattern is approved or inferred automatically.",
+  "controls": {
+    "source_modified": false,
+    "trusted_memory_modified": false,
+    "patterns_created": false,
+    "automatic_approval": false,
+    "network_access": false,
+    "approval_required_for_pattern_activation": true
+  }
+}

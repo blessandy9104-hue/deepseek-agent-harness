@@ -1,0 +1,16 @@
+{
+  "plan_id": "plan-20260815T155655Z",
+  "creator": "Andy",
+  "goal": "Describe the improvement you want",
+  "steps": [
+    "Clarify the goal and constraints",
+    "Use approved local context",
+    "Identify assumptions and risks",
+    "Prepare an isolated proposal",
+    "Test the proposal",
+    "Ask Andy for approval before action",
+    "Keep backup and rollback available"
+  ],
+  "status": "draft",
+  "approval_required": true
+}

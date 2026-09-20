@@ -1,0 +1,11 @@
+{
+  "source": "user-provided and externally observed; reviewable",
+  "interests": {
+    "trading_and_markets": ["chart reading fundamentals", "algorithmic trading strategy design", "crypto trading bot development"],
+    "coding_and_tech": ["Linux WSL2 Ubuntu", "Python development", "local AI persona projects", "crypto price tracking tools"],
+    "philosophy_and_inner_life": ["Carl Jung", "Nietzsche", "self-inquiry", "consciousness and ego dissolution"],
+    "pop_culture": ["Jujutsu Kaisen anime"],
+    "creative": ["graphic design", "photography"],
+    "lifestyle": ["dark humor", "smoking"]
+  }
+}

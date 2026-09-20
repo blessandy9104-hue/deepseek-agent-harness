@@ -1,0 +1,86 @@
+{
+  "generated_at": "2026-08-16T08:38:47.156312+00:00",
+  "status": "review_only",
+  "purpose": "map income opportunities for Andy; no financial action is performed",
+  "approved_interests_used": [],
+  "public_research_records_available": 7,
+  "opportunity_tracks": [
+    {
+      "track": "skill_services",
+      "question": "What service could Andy offer using existing skills?",
+      "first_experiment": "define one small service and test demand before spending money"
+    },
+    {
+      "track": "digital_products",
+      "question": "What reusable product could Andy create?",
+      "first_experiment": "make a small prototype and seek feedback before building further"
+    },
+    {
+      "track": "automation",
+      "question": "What repetitive problem could be turned into a useful tool?",
+      "first_experiment": "identify one real problem and test a minimal workflow"
+    },
+    {
+      "track": "career_growth",
+      "question": "Which skill or role could improve earning potential?",
+      "first_experiment": "compare requirements, time, cost, and evidence of demand"
+    },
+    {
+      "track": "business_research",
+      "question": "Which public market gaps or business models merit research?",
+      "first_experiment": "compare multiple sources and write a risk-aware opportunity brief"
+    }
+  ],
+  "required_analysis": [
+    "Andy-fit and assumptions",
+    "time to first experiment",
+    "startup cost",
+    "skills required",
+    "competition",
+    "downside risks",
+    "legal or tax questions",
+    "sources",
+    "confidence",
+    "small reversible next experiment",
+    "values lenses considered",
+    "tradeoffs between lenses",
+    "uncertainty and missing information",
+    "Andy-specific values requested for this decision",
+    "final decision remains Andy’s"
+  ],
+  "values_lenses": [
+    "consequences and expected outcomes",
+    "rights and consent",
+    "fairness and reciprocity",
+    "virtue and character",
+    "care and relationships",
+    "practical risk management",
+    "Andy-specified values for this situation"
+  ],
+  "must_show": [
+    "tradeoffs",
+    "uncertainty",
+    "missing information",
+    "startup cost",
+    "time to first experiment",
+    "downside risks",
+    "sources",
+    "confidence",
+    "Andy-specific values"
+  ],
+  "controls": {
+    "no_income_guarantees": true,
+    "no_private_data_in_web_queries": true,
+    "no_purchases_or_trades": true,
+    "no_external_contact": true,
+    "explicit_approval_before_consequential_action": true,
+    "background_research": "approval_required",
+    "automatic_code_activation": false,
+    "automatic_memory_activation": false
+  },
+  "final_note": "This is research and planning, not a guarantee of income. Andy decides whether to pursue anything.",
+  "activation": {
+    "automatic": false,
+    "requires_andy_approval": true
+  }
+}

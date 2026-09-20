@@ -1,0 +1,88 @@
+{
+  "generated_at": "2026-08-16T07:06:36.327115+00:00",
+  "status": "candidate_only",
+  "purpose": "identify useful opportunities for Andy without taking financial action",
+  "approved_patterns_used": [
+    "staged_supervised_workflow",
+    "andy_planning_and_review_orientation",
+    "andy_staged_change_and_verification",
+    "andy_learning_opportunity_tracks"
+  ],
+  "interest_candidate": {
+    "key": "making_money",
+    "label": "Making money and mapping income opportunities",
+    "status": "pending_review",
+    "approved": false
+  },
+  "opportunity_categories": [
+    {
+      "key": "skill_services",
+      "label": "Freelance or contract services based on Andy’s skills"
+    },
+    {
+      "key": "digital_products",
+      "label": "Small software, templates, educational, or creative products"
+    },
+    {
+      "key": "automation",
+      "label": "Useful tools or workflows that could save others time"
+    },
+    {
+      "key": "career_growth",
+      "label": "Skills, certifications, or roles with stronger earning potential"
+    },
+    {
+      "key": "business_research",
+      "label": "Publicly researched business ideas and market gaps"
+    },
+    {
+      "key": "investing_education",
+      "label": "Educational market research only; no automatic investing advice or trades"
+    }
+  ],
+  "required_report_fields": [
+    "Andy-fit and assumptions",
+    "time to first experiment",
+    "startup cost",
+    "skills required",
+    "competition",
+    "downside risks",
+    "legal or tax questions",
+    "sources",
+    "confidence",
+    "small reversible next experiment",
+    "values lenses considered",
+    "tradeoffs between lenses",
+    "uncertainty and missing information",
+    "Andy-specific values requested for this decision",
+    "final decision remains Andy’s"
+  ],
+  "controls": {
+    "no_income_guarantees": true,
+    "no_private_data_in_web_queries": true,
+    "no_purchases_or_trades": true,
+    "no_external_contact": true,
+    "explicit_approval_before_consequential_action": true,
+    "background_research": "approval_required",
+    "automatic_code_activation": false,
+    "automatic_memory_activation": false
+  },
+  "approved_by": "Andy",
+  "approved_at": "2026-08-16T07:08:05.647945+00:00",
+  "values_policy": {
+    "source": "maya_values_policy.json",
+    "mode": "pluralistic",
+    "compare_lenses": true,
+    "required_lenses": [
+      "consequences and expected outcomes",
+      "rights and consent",
+      "fairness and reciprocity",
+      "practical risk management",
+      "Andy-specified values for this situation"
+    ],
+    "report_tradeoffs": true,
+    "report_uncertainty": true,
+    "defer_value_sensitive_final_judgment_to_Andy": true,
+    "never_override_hard_safety_invariants": true
+  }
+}

@@ -1,0 +1,97 @@
+# Python / environments
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# IDE / tooling
+.idea/
+.vscode/
+*.iml
+.aider*
+
+# Temporary / generated files
+*.tmp
+*.bak
+*.orig
+*.log
+*.pid
+*.lock
+*.inspect.txt
+*.jsonl
+*.save
+*.preview.json
+*.before_*
+*.broken_context_edit
+
+# Runtime / sensitive data
+browser_cache/
+evolution/browser-profile/
+knowledge/
+versions/
+lessons/
+
+# Runtime emergency / stray artifacts
+PRESENCE_STOP
+v0.16.0
+canonical_trace.txt
+pytest_collection_trace*.txt
+benchmark_failures.txt
+
+# Generated reports
+Maya Reports/__pycache__/
+*.pyc
+*.log
+*.save
+*.before_theme
+*.before_unbuffered_fix
+*.broken_context_edit
+*.preview.json
+browser_cache/
+Maya Reports/
+.aider*
+
+maya_service_state.json
+
+# ----------------------------------------------------------------------
+# Phase 4C - generated report / experiment corpus (untracked noise)
+# ----------------------------------------------------------------------
+# Experiment-state directories and submission folders: generated archives and
+# third-party submission bundles, never source. Ignoring them prevents an
+# accidental `git add -A` (Discovery 4 hazard) and removes them from status.
+evaluation/
+report_archive/
+.freebuff/
+DiamondAI_Submission/
+Nexan_Submission/
+# Volatile per-batch verification reports and the full-project analysis dump.
+MAYA_FULL_PROJECT_ANALYSIS.txt
+MAYA_BATCH_*.md
+MAYA_PRE_8J_*
+MAYA_ARCHITECTURE_INTEGRITY_REPORT.md
+MAYA_ASYNC_ORCHESTRATION_REPORT.md
+MAYA_BRIDGE_UPDATE_COALESCING_REPORT.md
+MAYA_CHAT_SUBPROCESS_REPORT.md
+MAYA_OUTPUT_SUPERVISION_REGISTRATION_REPORT.md
+MAYA_PERFORMANCE_INSTRUMENTATION_BASELINE_REPORT.md
+MAYA_STANDING_ADDENDUM.md
+
+# ----------------------------------------------------------------------
+# Phase 4C - volatile runtime-state JSON policy
+# ----------------------------------------------------------------------
+# These ROOT-LEVEL files are written by the application/suite runtimes on
+# every launch (task queue, learning-proposal queue, presence/learning
+# status, onboarding, opportunity bookmarks). They are generated state, not
+# source. Policy: they REMAIN TRACKED in the working tree (status noise from
+# them is expected and unchanged by this rule set); the entries below (i)
+# block an accidental `git add -A` from staging fresh copies and (ii) pin the
+# policy so the untrack/canonicalize decision is left to Candidate D2.
+# Curated source/configuration JSON (maya_identity config trees, approval and
+# scope registries, persona assets) is intentionally NOT ignored.
+tasks.json
+maya_learning_proposals.json
+learning_status.json
+presence_status.json
+onboarding_pending.json
+maya_opportunity_bookmarks.json

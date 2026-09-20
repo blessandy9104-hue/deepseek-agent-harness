@@ -1,0 +1,8 @@
+{
+  "running": false,
+  "pid": null,
+  "state": {
+    "status": "sleeping",
+    "pid": null
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": 2,
+  "theme": "improve",
+  "title": "Automate the offline evolution cycle",
+  "reason": "Feedback indicates the assistant should observe, propose, test, and report improvements",
+  "status": "proposed",
+  "activation_required": true,
+  "test": "passed",
+  "approved": false
+}

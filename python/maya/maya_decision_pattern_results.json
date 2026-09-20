@@ -1,0 +1,251 @@
+{
+  "figure": "Marie Curie",
+  "scenario_count": 3,
+  "rows": [
+    {
+      "scenario": "historical_restriction",
+      "decision_patterns": [
+        {
+          "source": "individual",
+          "pattern": "persistent goal pursuit",
+          "effect": "changes which routes remain acceptable"
+        },
+        {
+          "source": "individual",
+          "pattern": "delayed reward",
+          "effect": "changes which routes remain acceptable"
+        },
+        {
+          "source": "individual",
+          "pattern": "resource preservation",
+          "effect": "changes which routes remain acceptable"
+        },
+        {
+          "source": "individual",
+          "pattern": "seek evidence before commitment",
+          "effect": "changes which routes remain acceptable"
+        },
+        {
+          "source": "society",
+          "pattern": "gendered exclusion",
+          "effect": "changes access, incentives, or available resources"
+        },
+        {
+          "source": "society",
+          "pattern": "economic pressure",
+          "effect": "changes access, incentives, or available resources"
+        },
+        {
+          "source": "society",
+          "pattern": "need for indirect routes",
+          "effect": "changes access, incentives, or available resources"
+        },
+        {
+          "source": "circumstance",
+          "pattern": "resource scarcity",
+          "effect": "increases the value of reversible and resource-preserving choices"
+        }
+      ],
+      "ranked_paths": [
+        {
+          "path": "anomaly_to_method",
+          "description": "pursue a difficult measurable problem and develop methods that produce original evidence",
+          "relative_score": 7,
+          "relative_share": 0.5,
+          "calibrated_probability": false,
+          "why": "explicit individual decisions + circumstance + societal forces + actor incentives"
+        },
+        {
+          "path": "academic_research",
+          "description": "pursue advanced education, enter research, and build expertise",
+          "relative_score": 4,
+          "relative_share": 0.29,
+          "calibrated_probability": false,
+          "why": "explicit individual decisions + circumstance + societal forces + actor incentives"
+        },
+        {
+          "path": "collaborative_laboratory",
+          "description": "pursue education through sustained collaboration and shared laboratory work",
+          "relative_score": 3,
+          "relative_share": 0.21,
+          "calibrated_probability": false,
+          "why": "explicit individual decisions + circumstance + societal forces + actor incentives"
+        }
+      ],
+      "narrowed_desired_outcome": "pursue a difficult measurable problem and develop methods that produce original evidence",
+      "alternatives_retained": [
+        "pursue advanced education, enter research, and build expertise",
+        "pursue education through sustained collaboration and shared laboratory work"
+      ],
+      "human_review_required": true,
+      "consent_required_for_actor_coordination": true,
+      "historical_outcome": "advanced study, collaboration, radioactivity research, and original discoveries"
+    },
+    {
+      "scenario": "supported_access",
+      "decision_patterns": [
+        {
+          "source": "individual",
+          "pattern": "seek collaboration",
+          "effect": "changes which routes remain acceptable"
+        },
+        {
+          "source": "individual",
+          "pattern": "evidence before publication",
+          "effect": "changes which routes remain acceptable"
+        },
+        {
+          "source": "individual",
+          "pattern": "long-horizon research",
+          "effect": "changes which routes remain acceptable"
+        },
+        {
+          "source": "society",
+          "pattern": "institutional support",
+          "effect": "changes access, incentives, or available resources"
+        },
+        {
+          "source": "society",
+          "pattern": "fair credit sharing",
+          "effect": "changes access, incentives, or available resources"
+        },
+        {
+          "source": "circumstance",
+          "pattern": "resource scarcity",
+          "effect": "increases the value of reversible and resource-preserving choices"
+        },
+        {
+          "source": "actors",
+          "pattern": "colliding interests",
+          "effect": "requires explicit tradeoff disclosure and consent before coordination"
+        }
+      ],
+      "ranked_paths": [
+        {
+          "path": "collaborative_laboratory",
+          "description": "pursue education through sustained collaboration and shared laboratory work",
+          "relative_score": 8,
+          "relative_share": 0.47,
+          "calibrated_probability": false,
+          "why": "explicit individual decisions + circumstance + societal forces + actor incentives"
+        },
+        {
+          "path": "anomaly_to_method",
+          "description": "pursue a difficult measurable problem and develop methods that produce original evidence",
+          "relative_score": 5,
+          "relative_share": 0.29,
+          "calibrated_probability": false,
+          "why": "explicit individual decisions + circumstance + societal forces + actor incentives"
+        },
+        {
+          "path": "academic_research",
+          "description": "pursue advanced education, enter research, and build expertise",
+          "relative_score": 4,
+          "relative_share": 0.24,
+          "calibrated_probability": false,
+          "why": "explicit individual decisions + circumstance + societal forces + actor incentives"
+        }
+      ],
+      "narrowed_desired_outcome": "pursue education through sustained collaboration and shared laboratory work",
+      "alternatives_retained": [
+        "pursue a difficult measurable problem and develop methods that produce original evidence",
+        "pursue advanced education, enter research, and build expertise"
+      ],
+      "human_review_required": true,
+      "consent_required_for_actor_coordination": true,
+      "historical_outcome": null
+    },
+    {
+      "scenario": "scarce_resource_credit_conflict",
+      "decision_patterns": [
+        {
+          "source": "individual",
+          "pattern": "protect scarce resources",
+          "effect": "changes which routes remain acceptable"
+        },
+        {
+          "source": "individual",
+          "pattern": "choose distinctive evidence",
+          "effect": "changes which routes remain acceptable"
+        },
+        {
+          "source": "individual",
+          "pattern": "avoid premature claims",
+          "effect": "changes which routes remain acceptable"
+        },
+        {
+          "source": "individual",
+          "pattern": "preserve reversibility",
+          "effect": "changes which routes remain acceptable"
+        },
+        {
+          "source": "society",
+          "pattern": "credit competition",
+          "effect": "changes access, incentives, or available resources"
+        },
+        {
+          "source": "society",
+          "pattern": "funding pressure",
+          "effect": "changes access, incentives, or available resources"
+        },
+        {
+          "source": "society",
+          "pattern": "competing researchers",
+          "effect": "changes access, incentives, or available resources"
+        },
+        {
+          "source": "circumstance",
+          "pattern": "resource scarcity",
+          "effect": "increases the value of reversible and resource-preserving choices"
+        },
+        {
+          "source": "actors",
+          "pattern": "colliding interests",
+          "effect": "requires explicit tradeoff disclosure and consent before coordination"
+        }
+      ],
+      "ranked_paths": [
+        {
+          "path": "anomaly_to_method",
+          "description": "pursue a difficult measurable problem and develop methods that produce original evidence",
+          "relative_score": 10,
+          "relative_share": 0.62,
+          "calibrated_probability": false,
+          "why": "explicit individual decisions + circumstance + societal forces + actor incentives"
+        },
+        {
+          "path": "academic_research",
+          "description": "pursue advanced education, enter research, and build expertise",
+          "relative_score": 5,
+          "relative_share": 0.31,
+          "calibrated_probability": false,
+          "why": "explicit individual decisions + circumstance + societal forces + actor incentives"
+        },
+        {
+          "path": "collaborative_laboratory",
+          "description": "pursue education through sustained collaboration and shared laboratory work",
+          "relative_score": 1,
+          "relative_share": 0.06,
+          "calibrated_probability": false,
+          "why": "explicit individual decisions + circumstance + societal forces + actor incentives"
+        }
+      ],
+      "narrowed_desired_outcome": "pursue a difficult measurable problem and develop methods that produce original evidence",
+      "alternatives_retained": [
+        "pursue advanced education, enter research, and build expertise",
+        "pursue education through sustained collaboration and shared laboratory work"
+      ],
+      "human_review_required": true,
+      "consent_required_for_actor_coordination": true,
+      "historical_outcome": null
+    }
+  ],
+  "distinct_narrowed_outcomes": 2,
+  "interpretation": "Decision patterns narrow the desired route by combining explicit individual choices with societal conditions and actor incentives. They do not make the outcome inevitable or produce calibrated probabilities.",
+  "safeguards": {
+    "private_memory_shared": false,
+    "automatic_action": false,
+    "single_path_certainty": false,
+    "human_review": true
+  }
+}

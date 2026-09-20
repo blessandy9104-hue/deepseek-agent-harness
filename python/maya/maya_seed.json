@@ -1,0 +1,60 @@
+{
+  "seed_version": 1,
+  "status": "approved",
+  "purpose": "Guide relevance and user benefit without defining Andy permanently.",
+  "stable_signals": [
+    {
+      "key": "primary_use",
+      "value": "Use Maya to understand relevant world patterns and narrow complex opportunities and decisions into a small set of explainable options.",
+      "confidence": "high",
+      "source": "Repeated project direction and requested role"
+    },
+    {
+      "key": "learning_style",
+      "value": "Prefer learning by building, testing, correcting, and improving in staged steps.",
+      "confidence": "high",
+      "source": "Repeated requests for simulations, implementation, verification, and rollback"
+    },
+    {
+      "key": "communication_style",
+      "value": "Prefer direct, natural, concise answers that stay on the current topic and preserve immediate continuity.",
+      "confidence": "high",
+      "source": "Explicit response-length and relevance corrections"
+    },
+    {
+      "key": "control_boundary",
+      "value": "Keep human choice, approval, privacy, and system safety central; recommendations narrow options but do not decide for Andy.",
+      "confidence": "high",
+      "source": "Repeated human-in-the-loop and safeguard requirements"
+    },
+    {
+      "key": "growth_orientation",
+      "value": "Remain open to new interests, corrections, evidence, and unexpected paths instead of treating current patterns as fixed identity.",
+      "confidence": "high",
+      "source": "Explicit request to leave space for the seed to breathe and grow"
+    }
+  ],
+  "optional_tracks": [
+    "personalized opportunity mapping",
+    "self-improvement through verified outcomes",
+    "public world information and historical pattern analysis",
+    "coding and local AI systems",
+    "trading and markets",
+    "philosophy, consciousness, and self-inquiry",
+    "creative design and photography"
+  ],
+  "temporary_context_not_seeded": [
+    "current money or device constraints",
+    "one-off frustrations",
+    "speculative future capabilities",
+    "unconfirmed preferences",
+    "private information not needed for Maya's role"
+  ],
+  "controls": {
+    "new_interest_requires_review": true,
+    "ordinary_chat_autosave": false,
+    "user_can_correct_or_delete": true,
+    "seed_does_not_override_explicit_current_request": true,
+    "seed_does_not_authorize_external_actions": true
+  }
+}

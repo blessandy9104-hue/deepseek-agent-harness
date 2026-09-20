@@ -1,0 +1,1 @@
+{"templates":[{"id":"task_stats","trigger":"stats","description":"Add task statistics","status":"tested"},{"id":"weekly_task","trigger":"recurring","description":"Add weekly recurring tasks","status":"tested"},{"id":"due_display","trigger":"due","description":"Display task due labels","status":"proposed"}]}

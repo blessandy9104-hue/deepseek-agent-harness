@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-08-16T09:48:34.347602+00:00",
+  "status": "review_only",
+  "purpose": "Bounded, inspectable conversation continuity for Maya.",
+  "scope": {
+    "known_creator": "God",
+    "role_summary": "self_evolution_for_andy_benefit",
+    "values_mode": "Andy-controlled pluralistic review",
+    "active_goals": [],
+    "approved_preferences": [],
+    "recent_decisions": [],
+    "unresolved_questions": [],
+    "display_name": "God",
+    "internal_owner_id": "andy"
+  },
+  "memory_policy": {
+    "ordinary_chat_auto_saved": false,
+    "automatic_trusted_memory_update": false,
+    "source_required_for_memory": true,
+    "Andy_review_required": true,
+    "retention": "bounded_and_inspectable"
+  },
+  "controls": {
+    "chat_loop_modified": false,
+    "network_access": false,
+    "memory_modified": false,
+    "automatic_inference": false,
+    "automatic_promotion": false,
+    "approval_required_for_summary_updates": true
+  },
+  "next_step": "Populate only from explicitly reviewed conversation summaries or approved evidence."
+}
