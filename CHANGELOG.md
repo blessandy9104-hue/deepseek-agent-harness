@@ -1,7 +1,7 @@
 # Changelog
 
 All notable changes to this repository are recorded here. The version number
-applies to the repository as published under `blessandy9104-hue/deepseek-harness`.
+applies to the repository as published under `blessandy9104-hue/deepseek-agent-harness`.
 
 The upstream DeepSeek Harness history is preserved in this repository; the
 `[Upstream]` tag marks entries that originated there. This changelog starts
@@ -12,7 +12,7 @@ upstream history.
 
 ### Added
 
-- Published the repository publicly under `blessandy9104-hue/deepseek-harness`.
+- Published the repository publicly under `blessandy9104-hue/deepseek-agent-harness`.
 - Added the [Maya](python/maya/README.md) local, human-supervised Python
   assistant prototype under `python/maya/` (Apache-2.0). Maya is a standalone
   desktop assistant: chat, task tracking, supervised learning, pattern
@@ -41,4 +41,4 @@ upstream history.
   keys, browser data, and personal filesystem paths before publishing. No
   secrets were found.
 
-[0.1.0]: https://github.com/blessandy9104-hue/deepseek-harness/releases/tag/v0.1.0
+[0.1.0]: https://github.com/blessandy9104-hue/deepseek-agent-harness/releases/tag/v0.1.0

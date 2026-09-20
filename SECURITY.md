@@ -12,7 +12,7 @@ The project is in developer preview. Only the latest commit on `master` receives
 
 Do **not** open a public issue for a suspected security vulnerability. Please report it privately instead:
 
-- Open a [private security advisory](https://github.com/blessandy9104-hue/deepseek-harness/security/advisories/new) on GitHub, or
+- Open a [private security advisory](https://github.com/blessandy9104-hue/deepseek-agent-harness/security/advisories/new) on GitHub, or
 - Report it through the upstream DeepSeek Harness project if the vulnerability affects the upstream harness code.
 
 Please include in your report:
