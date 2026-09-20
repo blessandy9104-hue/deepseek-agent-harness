@@ -32,6 +32,4 @@ These are behavior-coverage results for deterministic fixtures, not evidence of 
 
 Natural opportunity questions now use the upgraded mapper through Maya’s deterministic fast path. Explicit commands include `:map`, `:pattern map`, `map my opportunities`, and `show probable paths`. The mapper does not activate learning, change permissions, promote memory, browse, or take external action.
 
-Rollback copy before this upgrade:
-
-`C:\Users\Andy\OneDrive\Desktop\Maya_App_Copy.before_pattern_mapping_20260818_215831`
+A rollback copy of the app folder was created before this upgrade.

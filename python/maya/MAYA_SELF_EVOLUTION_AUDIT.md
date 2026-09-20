@@ -37,6 +37,4 @@ The Windows audit compiled the relevant modules and passed adversarial checks:
 {"status": "ok", "browser_observation_blocked_by_default": true, "inference_pending_only": true, "evolution_does_not_activate": true}
 ```
 
-The rollback copy created before hardening is:
-
-`C:\Users\Andy\OneDrive\Desktop\Maya_App_Copy.before_safeguard_audit_20260818_213524`
+A rollback copy of the app folder was created before hardening.

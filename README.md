@@ -14,6 +14,20 @@ DeepSeek Harness is in _developer preview_ and iterating rapidly. **THERE WILL B
 
 Review the [safety notice](SAFETY.md) before running the project.
 
+## Projects in this repository
+
+### DeepSeek Harness
+
+DeepSeek Harness (`dsh`) is the upstream agent harness: an all-plugin Cordis agent harness for running, extending, and embedding LLM agents. This portion of the repository is maintained as a fork of the upstream project, with the upstream Git history preserved.
+
+### Maya
+
+[Maya](python/maya/README.md) is a local, human-supervised Python assistant prototype that lives under `python/maya/`. It is a standalone application, not a DeepSeek Harness SDK, and it does not ship as part of any `dsh` profile.
+
+### Jarnes and Hermes
+
+The names *Jarnes* and *Hermes* do not appear anywhere in this codebase. They are not part of this project, and this repository makes no integration claim about them.
+
 ## Run
 
 ### Run from `npm`
@@ -70,6 +84,8 @@ For agents, follow [AGENTS.md](AGENTS.md).
 
 ## License
 
-[MIT](LICENSE)
+The DeepSeek Harness code and its vendored dependencies remain under the upstream [MIT](LICENSE) license, Copyright (c) 2026 DeepSeek.
+
+[Maya](python/maya/LICENSE) is provided under the Apache-2.0 license.
 
 Third-party dependencies and their licenses are disclosed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

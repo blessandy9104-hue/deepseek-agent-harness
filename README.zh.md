@@ -14,6 +14,20 @@ DeepSeek Harness 处于 _开发者预览_ 阶段，正在快速迭代。**未来
 
 运行本项目前，请阅读[安全说明](SAFETY.zh.md)。
 
+## 本仓库中的项目
+
+### DeepSeek Harness
+
+DeepSeek Harness（`dsh`）是上游的 agent harness：一个全插件架构的 Cordis agent harness，用于运行、扩展与嵌入 LLM agent。仓库的这一部分作为上游项目的一个 fork 维护，保留了上游的 Git 历史。
+
+### Maya
+
+[Maya](python/maya/README.md) 是一个本地、由人工监督的 Python 助手原型，位于 `python/maya/`。它是一个独立应用，而非 DeepSeek Harness SDK，也不会随任何 `dsh` profile 发布。
+
+### Jarnes 与 Hermes
+
+*Jarnes* 与 *Hermes* 这两个名字没有出现在本代码库的任何位置。它们不属于本项目，本仓库对它们不作任何集成声明。
+
 <a id="run"></a>
 
 ## 运行
@@ -91,6 +105,8 @@ pnpm dsh web
 
 ## 许可证
 
-[MIT](LICENSE)
+DeepSeek Harness 代码及其 vendored 依赖保持上游的 [MIT](LICENSE) 许可证，Copyright (c) 2026 DeepSeek。
+
+[Maya](python/maya/LICENSE) 采用 Apache-2.0 许可证提供。
 
 第三方依赖及其许可证见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。

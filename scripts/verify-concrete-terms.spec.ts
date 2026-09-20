@@ -64,6 +64,15 @@ describe('concrete terminology policy', () => {
     )).toEqual([{ file: '.agents/notes/implemented/process/current.md', line: 1 }])
   })
 
+  it('excludes the self-contained Maya prototype corpus', () => {
+    expect(findConcreteTermViolations(`python/maya/${blockedTerm}.py`, blockedTerm)).toEqual([])
+    expect(findConcreteTermViolations(`python/maya/nested/${blockedTerm}.py`, blockedTerm)).toEqual([])
+    expect(findConcreteTermViolations(
+      'python/maya_zero/prefix.py',
+      blockedTerm,
+    )).toEqual([{ file: 'python/maya_zero/prefix.py', line: 1 }])
+  })
+
   it('preserves historical identifiers only in alpha and RC release schema snapshots', () => {
     for (const channel of ['alpha', 'rc']) {
       expect(findConcreteTermViolations(
